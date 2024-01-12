@@ -1,0 +1,277 @@
+CodeFolding<|||>3<|||>0
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_UserManagerForm.listUsers<|||>1<|||>0,1
+ColSort_connform.ListSessions<|||>1<|||>1,0
+ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColSort_UserManagerForm.listUsers<|||>1<|||>0,0
+ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
+ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColsVisible_UserManagerForm.listUsers<|||>1<|||>0,1
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,10
+ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,398
+ColWidths_frmTableEditor.listColumns<|||>1<|||>59,207,159,90,60,65,50,119,130,149,100,100
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>1112,80,100,80,80,80
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>1226,100,80,120
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,298
+ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
+ColWidths_UserManagerForm.listUsers<|||>1<|||>96,80
+CSVImportDuplicateHandling<|||>3<|||>0
+CSVImportLocalNumbers<|||>3<|||>1
+CSVImportWindowHeight<|||>3<|||>1043
+CSVImportWindowWidth<|||>3<|||>1858
+ExportSQL_CreateDatabases<|||>3<|||>1
+ExportSQL_CreateTables<|||>3<|||>1
+ExportSQL_DataHow<|||>3<|||>2
+ExportSQL_Filenames<|||>1<|||>C:\users\aline\Desktop\ma_base.sql<{{{><}}}>C:\users\aline\Desktop\base_nouvelle.sql<{{{><}}}>C:\users\aline\Desktop\Fil_rouge_CDA\ma_base2.sql<{{{><}}}>C:\users\aline\Desktop\Fil_rouge_CDA\ma_base.sql<{{{><}}}>ma_base<{{{><}}}>
+FileDialogEncoding_MainForm<|||>3<|||>0
+LastActiveSession<|||>1<|||>Unnamed
+LastSessions<|||>1<|||>Unnamed
+loadfilename<|||>1<|||>C:\users\aline\Desktop\base_the-twinsnovo\hello
+MainWinHeight<|||>3<|||>512
+MainWinLeft<|||>3<|||>364
+MainWinMaximized<|||>3<|||>1
+MainWinOnMonitor<|||>3<|||>1
+MainWinTop<|||>3<|||>149
+MainWinWidth<|||>3<|||>985
+PromptSaveFileOnTabClose<|||>3<|||>0
+queryhelperswidth<|||>3<|||>271
+querymemoheight<|||>3<|||>352
+SessionManager_WindowLeft<|||>3<|||>431
+SessionManager_WindowTop<|||>3<|||>120
+SQLFile0<|||>1<|||>Z:\home\aline\snap\heidisql-wine\7\heidisql-wine\Backups\query-tab-2023-12-07_11-40-00-149.sql
+SQLFile1<|||>1<|||>Z:\home\aline\snap\heidisql-wine\7\heidisql-wine\Backups\query-tab-2023-12-06_16-13-17-623.sql
+SQLFile2<|||>1<|||>Z:\home\aline\snap\heidisql-wine\7\heidisql-wine\Backups\query-tab-2023-12-06_14-50-34-812.sql
+SQLFile3<|||>1<|||>Z:\home\aline\snap\heidisql-wine\7\heidisql-wine\Backups\query-tab-2023-11-08_10-05-51-648.sql
+Servers\Unnamed\CleartextPluginEnabled<|||>3<|||>0
+Servers\Unnamed\Comment<|||>1<|||>
+Servers\Unnamed\Compressed<|||>3<|||>0
+Servers\Unnamed\ConnectCount<|||>3<|||>25
+Servers\Unnamed\Databases<|||>1<|||>
+Servers\Unnamed\FavoriteObjects<|||>1<|||>
+Servers\Unnamed\FullTableStatus<|||>3<|||>1
+Servers\Unnamed\Host<|||>1<|||>127.0.0.1
+Servers\Unnamed\IgnoreDatabasePattern<|||>1<|||>
+Servers\Unnamed\KeepAlive<|||>3<|||>20
+Servers\Unnamed\LastConnect<|||>1<|||>2024-01-05 10:03:47
+Servers\Unnamed\lastUsedDB<|||>1<|||>the_twins_shop
+Servers\Unnamed\Library<|||>1<|||>libmariadb.dll
+Servers\Unnamed\LocalTimeZone<|||>3<|||>0
+Servers\Unnamed\LogFileDdl<|||>3<|||>0
+Servers\Unnamed\LogFileDml<|||>3<|||>0
+Servers\Unnamed\LogFilePath<|||>1<|||>C:\users\aline\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\Unnamed\LoginPrompt<|||>3<|||>0
+Servers\Unnamed\NetType<|||>3<|||>0
+Servers\Unnamed\Password<|||>1<|||>496E7869393A3B3C8
+Servers\Unnamed\Port<|||>1<|||>3306
+Servers\Unnamed\QueryTimeout<|||>3<|||>30
+Servers\Unnamed\RefusedCount<|||>3<|||>3
+Servers\Unnamed\ServerVersion<|||>3<|||>100612
+Servers\Unnamed\ServerVersionFull<|||>1<|||>10.6.12-MariaDB-0ubuntu0.22.04.1 - Ubuntu 22.04
+Servers\Unnamed\SessionCreated<|||>1<|||>2023-11-02 14:22:36
+Servers\Unnamed\SshExecutable<|||>1<|||>plink.exe
+Servers\Unnamed\SSHtunnelHost<|||>1<|||>
+Servers\Unnamed\SSHtunnelHostPort<|||>3<|||>22
+Servers\Unnamed\SSHtunnelPassword<|||>1<|||>8
+Servers\Unnamed\SSHtunnelPort<|||>3<|||>3307
+Servers\Unnamed\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Unnamed\SSHtunnelTimeout<|||>3<|||>4
+Servers\Unnamed\SSHtunnelUser<|||>1<|||>
+Servers\Unnamed\SSL_Active<|||>3<|||>0
+Servers\Unnamed\SSL_CA<|||>1<|||>
+Servers\Unnamed\SSL_Cert<|||>1<|||>
+Servers\Unnamed\SSL_Cipher<|||>1<|||>
+Servers\Unnamed\SSL_Key<|||>1<|||>
+Servers\Unnamed\StartupScriptFilename<|||>1<|||>
+Servers\Unnamed\TreeBackground<|||>3<|||>536870911
+Servers\Unnamed\User<|||>1<|||>admin
+Servers\Unnamed\WindowsAuth<|||>3<|||>0
+Servers\Unnamed\gescom|products\Sort<|||>1<|||>1_pro_id|0_cat_id|
+Servers\Unnamed\QueryHistory\1<|||>1<|||>2023-12-06 10:26:26|the_twins_meches|20|INSERT INTO SousRubrique(id_Rubrique,nom)<{{{><}}}>VALUES (1,'Lisse'),<{{{><}}}>       (2,'Perruque boucle et lisse'),<{{{><}}}>       (3,'lace frontal lisse et boucles');<{{{><}}}>       
+Servers\Unnamed\QueryHistory\10<|||>1<|||>2023-12-06 15:24:22|the_twins_meches|30|INSERT INTO Facture (fa_adresse, fa_mode_paiement, fa_date_emission, fa_tva, fa_montant_TTC, fa_reglement, fa_date_limite_paiement)<{{{><}}}>VALUES ('123 Main St', 'Credit Card', '2023-01-20', 20, 600.00, FALSE, '2023-02-10');<{{{><}}}><{{{><}}}>-- Inserting another invoice with minimal information<{{{><}}}>INSERT INTO Facture (fa_adresse, fa_montant_TTC, fa_reglement)<{{{><}}}>VALUES ('456 Delivery St', 300.00, TRUE);<{{{><}}}><{{{><}}}>-- Inserting an invoice with no payment yet<{{{><}}}>INSERT INTO Facture (fa_adresse, fa_mode_paiement, fa_date_emission, fa_tva, fa_montant_TTC, fa_reglement, fa_date_limite_paiement)<{{{><}}}>VALUES ('789 Billing St', 'Bank Transfer', '2023-03-15', 15, 450.00, FALSE, '2023-04-05');<{{{><}}}><{{{><}}}>-- Inserting an invoice with a specific payment date<{{{><}}}>INSERT INTO Facture (fa_adresse, fa_mode_paiement, fa_date_emission, fa_tva, fa_montant_TTC, fa_reglement, fa_date_limite_paiement)<{{{><}}}>VALUES ('101 Payment St', 'Cash', '2023-04-01', 10, 800.00, TRUE, NULL);<{{{><}}}>
+Servers\Unnamed\QueryHistory\100<|||>1<|||>2023-11-14 11:01:17|papyrus|1|<{{{><}}}><{{{><}}}><{{{><}}}>SELECT fournis.nomfou,ligcom.numcom FROM fournis<{{{><}}}>INNER JOIN ligcom ON ligcom.numcom;
+Servers\Unnamed\QueryHistory\101<|||>1<|||>2023-11-14 13:41:46|papyrus|10|SELECT nomfou AS 'Founisseur'<{{{><}}}>		<{{{><}}}>	FROM fournis<{{{><}}}>NATURAL JOIN entcom,vente,ligcom<{{{><}}}>WHERE qteliv != 0<{{{><}}}>GROUP BY nomfou;
+Servers\Unnamed\QueryHistory\102<|||>1<|||>2023-11-14 14:46:16|hotel|0|SELECT hotel.hot_nom,station.sta_nom FROM hotel<{{{><}}}>INNER JOIN station on station.sta_id;
+Servers\Unnamed\QueryHistory\103<|||>1<|||>2023-11-14 14:48:00|hotel|202|CREATE VIEW staion_hotel<{{{><}}}>AS <{{{><}}}><{{{><}}}>SELECT hotel.hot_nom,station.sta_nom FROM hotel<{{{><}}}>INNER JOIN station on station.sta_id;
+Servers\Unnamed\QueryHistory\104<|||>1<|||>2023-11-14 15:06:10|hotel|1|SELECT hotel.hot_nom,chambre.* FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id;
+Servers\Unnamed\QueryHistory\105<|||>1<|||>2023-11-14 15:07:06|hotel|84|CREATE VIEW chambre_hotel<{{{><}}}>AS <{{{><}}}>SELECT hotel.hot_nom,chambre.* FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id;
+Servers\Unnamed\QueryHistory\106<|||>1<|||>2023-11-14 15:15:02|hotel|1|SELECT client.cli_nom,reservation.res_cli_id FROM client <{{{><}}}>INNER JOIN reservation ON reservation.res_cli_id;
+Servers\Unnamed\QueryHistory\107<|||>1<|||>2023-11-14 15:23:51|hotel|1|<{{{><}}}><{{{><}}}>SELECT client.cli_nom,reservation.res_cli_id FROM client <{{{><}}}>INNER JOIN reservation ON reservation.res_cli_id = client.cli_id ;
+Servers\Unnamed\QueryHistory\108<|||>1<|||>2023-11-14 15:24:56|hotel|204|CREATE VIEW reservation_client<{{{><}}}>AS <{{{><}}}><{{{><}}}>SELECT client.cli_nom,reservation.res_cli_id FROM client <{{{><}}}>INNER JOIN reservation ON reservation.res_cli_id = client.cli_id;
+Servers\Unnamed\QueryHistory\109<|||>1<|||>2023-11-14 15:28:53|hotel|1|<{{{><}}}><{{{><}}}><{{{><}}}>SELECT hotel.hot_nom,station.sta_nom FROM hotel<{{{><}}}>INNER JOIN station on station.sta_id= hotel.hot_id;
+Servers\Unnamed\QueryHistory\11<|||>1<|||>2023-12-07 10:13:02|the_twins_meches|37|<{{{><}}}><{{{><}}}><{{{><}}}>INSERT INTO Livraison (li_num_bon, li_adresse, Id_Commande)<{{{><}}}>VALUES ('BON123', '123 Main St', 5);<{{{><}}}><{{{><}}}><{{{><}}}>INSERT INTO Livraison (li_num_bon, li_adresse, Id_Commande)<{{{><}}}>VALUES ('BON456', '456 Delivery St', 2);<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\110<|||>1<|||>2023-11-14 15:30:12|hotel|1|<{{{><}}}><{{{><}}}>SELECT client.cli_nom,reservation.res_cli_id FROM client <{{{><}}}>INNER JOIN reservation ON reservation.res_cli_id = client.cli_id;<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\111<|||>1<|||>2023-11-14 15:31:11|hotel|1|<{{{><}}}><{{{><}}}>SELECT hotel.hot_nom,chambre.* FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id;<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\112<|||>1<|||>2023-11-14 15:31:39|hotel|0|<{{{><}}}><{{{><}}}>SELECT hotel.hot_nom,chambre.* FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id =hotel.hot_id;<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\113<|||>1<|||>2023-11-14 15:32:10|hotel|1|<{{{><}}}><{{{><}}}>SELECT hotel.hot_nom,chambre.* FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id =chambre.cha_id;<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\114<|||>1<|||>2023-11-14 15:34:44|hotel|0|<{{{><}}}><{{{><}}}>SELECT hotel.hot_nom,chambre.* FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id =chambre.cha_hot_id;<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\115<|||>1<|||>2023-11-14 15:35:19|hotel|88|<{{{><}}}>CREATE VIEW hot_cha<{{{><}}}>as<{{{><}}}>SELECT hotel.hot_nom,chambre.* FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id =chambre.cha_hot_id;<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\116<|||>1<|||>2023-11-14 15:50:09|hotel|1|SELECT chambre.*, hotel.hot_nom,station.sta_nom FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id = chambre.cha_hot_id<{{{><}}}>INNER JOIN station ON station.sta_id = hotel.hot_sta_id ;<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\117<|||>1<|||>2023-11-14 15:50:52|hotel|90|CREATE VIEW Cha_H_S<{{{><}}}>AS <{{{><}}}><{{{><}}}>SELECT chambre.*, hotel.hot_nom,station.sta_nom FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id = chambre.cha_hot_id<{{{><}}}>INNER JOIN station ON station.sta_id = hotel.hot_sta_id ;<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\118<|||>1<|||>2023-11-14 16:03:59|hotel|1|<{{{><}}}><{{{><}}}>SELECT client.cli_nom,hotel.hot_nom,reservation.* FROM reservation <{{{><}}}>INNER JOIN client ON client.cli_id = reservation.res_cli_id<{{{><}}}>INNER JOIN chambre ON chambre.cha_hot_id= reservation.res_cha_id<{{{><}}}>INNER JOIN hotel ON hotel.hot_id = chambre.cha_hot_id;
+Servers\Unnamed\QueryHistory\119<|||>1<|||>2023-11-14 16:05:21|hotel|98|<{{{><}}}>CREATE VIEW rhc<{{{><}}}>AS <{{{><}}}>SELECT client.cli_nom,hotel.hot_nom,reservation.* FROM reservation <{{{><}}}>INNER JOIN client ON client.cli_id = reservation.res_cli_id<{{{><}}}>INNER JOIN chambre ON chambre.cha_hot_id= reservation.res_cha_id<{{{><}}}>INNER JOIN hotel ON hotel.hot_id = chambre.cha_hot_id;
+Servers\Unnamed\QueryHistory\12<|||>1<|||>2023-12-07 10:50:32|the_twins_meches|30|<{{{><}}}>INSERT INTO Ligne_commande (Id_Commande, Id_Produit, quantite_commande, prix_vente) VALUES<{{{><}}}>(5, 2, 4, 79.99), <{{{><}}}>(2,1, 5,129.99);  <{{{><}}}><{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\120<|||>1<|||>2023-11-15 10:24:18|papyrus|1|SELECT codart,SUM(qtecde), SUM(priuni*qtecde) FROM ligcom<{{{><}}}><{{{><}}}>GROUP BY codart;
+Servers\Unnamed\QueryHistory\121<|||>1<|||>2023-11-15 10:44:35|papyrus|1|<{{{><}}}><{{{><}}}>SELECT * FROM vente WHERE codart LIKE 'I100';
+Servers\Unnamed\QueryHistory\122<|||>1<|||>2023-11-15 10:51:31|papyrus|0|<{{{><}}}> <{{{><}}}>SELECT codart,numfou FROM vente WHERE codart LIKE 'I100';
+Servers\Unnamed\QueryHistory\123<|||>1<|||>2023-11-15 10:55:20|papyrus|0|<{{{><}}}> <{{{><}}}>SELECT codart,numfou FROM vente WHERE codart LIKE 'I100' AND numfou LIKE '120';
+Servers\Unnamed\QueryHistory\124<|||>1<|||>2023-11-15 11:39:37|papyrus|1|<{{{><}}}> SELECT numfou,numcom FROM entcom;
+Servers\Unnamed\QueryHistory\125<|||>1<|||>2023-11-15 15:46:53|hotel|1|SELECT * FROM hotel;
+Servers\Unnamed\QueryHistory\126<|||>1<|||>2023-11-15 15:50:02|hotel|0|SELECT * FROM hotel<{{{><}}}>WHERE hot_id <= 10;
+Servers\Unnamed\QueryHistory\127<|||>1<|||>2023-11-15 16:01:12|hotel|1|<{{{><}}}><{{{><}}}>SELECT hotel.hot_id,chambre.cha_hot_id FROM hotel<{{{><}}}>INNER JOIN chambre ON chambre.cha_id = hotel.hot_id;
+Servers\Unnamed\QueryHistory\128<|||>1<|||>2023-11-15 16:02:00|hotel|0|<{{{><}}}><{{{><}}}>SELECT hotel.hot_id FROM hotel<{{{><}}}>INNER JOIN chambre ON chambre.cha_id = hotel.hot_id;
+Servers\Unnamed\QueryHistory\129<|||>1<|||>2023-11-15 16:05:14|hotel|0|<{{{><}}}><{{{><}}}>SELECT hotel.hot_id FROM hotel<{{{><}}}>INNER JOIN chambre ON chambre.cha_id = hotel.hot_id<{{{><}}}>WHERE chambre.cha_id = 1;
+Servers\Unnamed\QueryHistory\13<|||>1<|||>2023-12-07 11:02:59|the_twins_meches|22|<{{{><}}}><{{{><}}}>INSERT INTO Contient (Id_Produit, Id_Livraison, qte_livree, numero_bon_livraison, date_livraison) VALUES<{{{><}}}>(1, 6, 5, 'BON123', '2023-01-15'),<{{{><}}}>(3, 4, 3, 'BON456', '2023-01-15');<{{{><}}}>
+Servers\Unnamed\QueryHistory\130<|||>1<|||>2023-11-15 16:12:15|hotel|0|<{{{><}}}><{{{><}}}>SELECT COUNT(reservation.res_cha_id) FROM reservation<{{{><}}}>INNER JOIN chambre ON chambre.cha_id = reservation.res_cha_id<{{{><}}}>WHERE chambre.cha_hot_id = 1;
+Servers\Unnamed\QueryHistory\131<|||>1<|||>2023-11-15 16:13:34|hotel|0|<{{{><}}}><{{{><}}}>SELECT COUNT(reservation.res_cha_id) FROM reservation<{{{><}}}>INNER JOIN chambre ON chambre.cha_id = reservation.res_cha_id<{{{><}}}>WHERE chambre.cha_hot_id = 1<{{{><}}}>GROUP BY chambre.cha_hot_id;
+Servers\Unnamed\QueryHistory\132<|||>1<|||>2023-11-16 10:33:23|hotel|1|SELECT COUNT(reservation.res_cli_id) FROM reservation<{{{><}}}>WHERE reservation.res_cli_id= 3;
+Servers\Unnamed\QueryHistory\133<|||>1<|||>2023-11-16 11:25:18|hotel|1|SELECT COUNT(chambre.cha_capacite) FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id = chambre.cha_hot_id;
+Servers\Unnamed\QueryHistory\134<|||>1<|||>2023-11-16 11:26:13|hotel|0|SELECT sum(chambre.cha_capacite) FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id = chambre.cha_hot_id;
+Servers\Unnamed\QueryHistory\135<|||>1<|||>2023-11-16 11:27:52|hotel|1|SELECT sum(chambre.cha_capacite) FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id = chambre.cha_hot_id<{{{><}}}>WHERE chambre.cha_hot_id=50;
+Servers\Unnamed\QueryHistory\136<|||>1<|||>2023-11-16 11:27:58|hotel|1|SELECT sum(chambre.cha_capacite) FROM chambre<{{{><}}}>INNER JOIN hotel ON hotel.hot_id = chambre.cha_hot_id<{{{><}}}>WHERE chambre.cha_hot_id=1;
+Servers\Unnamed\QueryHistory\137<|||>1<|||>2023-11-16 11:33:50|hotel|1|SELECT hotel.hot_id FROM hotel<{{{><}}}>INNER JOIN chambre ON chambre.cha_id = chambre.cha_id;
+Servers\Unnamed\QueryHistory\138<|||>1<|||>2023-11-16 11:37:05|hotel|0|SELECT hotel.hot_id FROM hotel<{{{><}}}>INNER JOIN chambre ON chambre.cha_id = hotel.hot_id<{{{><}}}>WHERE chambre.cha_id = 1;
+Servers\Unnamed\QueryHistory\139<|||>1<|||>2023-11-16 11:47:25|hotel|0|SELECT cha_numero,cha_hot_id,SUM(cha_capacite) FROM chambre;
+Servers\Unnamed\QueryHistory\14<|||>1<|||>2023-12-07 11:42:02|the_twins_meches|17|INSERT INTO Livrer (Id_Fournisseur, Id_Produit) VALUES<{{{><}}}>(1, 3), <{{{><}}}>(3, 2);<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\140<|||>1<|||>2023-11-16 11:49:25|hotel|1|SELECT SUM(cha_capacite) FROM chambre<{{{><}}}>WHERE chambre.cha_hot_id = 1;
+Servers\Unnamed\QueryHistory\141<|||>1<|||>2023-12-04 11:53:08|hotel|0|CREATE DATABASE the_twins_meches;
+Servers\Unnamed\QueryHistory\142<|||>1<|||>2023-12-04 14:01:20|the_twins_meches|153|CREATE TABLE Fournisseur(<{{{><}}}>   Id_Fournisseur INT AUTO_INCREMENT,<{{{><}}}>   fou_nom VARCHAR(50) ,<{{{><}}}>   fou_adresse VARCHAR(50) ,<{{{><}}}>   fou_rue VARCHAR(50) ,<{{{><}}}>   fou_cp INT,<{{{><}}}>   fou_ville VARCHAR(50) ,<{{{><}}}>   fou_tel VARCHAR(20) ,<{{{><}}}>   PRIMARY KEY(Id_Fournisseur)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\143<|||>1<|||>2023-12-04 14:01:44|the_twins_meches|120|CREATE TABLE Facture(<{{{><}}}>   fa_id INT AUTO_INCREMENT,<{{{><}}}>   fa_adresse VARCHAR(50) ,<{{{><}}}>   fa_mode_paiement VARCHAR(50) ,<{{{><}}}>   fa_date_emission DATE,<{{{><}}}>   fa_tva INT,<{{{><}}}>   fa_montant_TTC DECIMAL(9,2)  ,<{{{><}}}>   fa_reglement BOOLEAN,<{{{><}}}>   fa_date_limite_paiement VARCHAR(50) ,<{{{><}}}>   PRIMARY KEY(fa_id)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\144<|||>1<|||>2023-12-04 14:02:08|the_twins_meches|104|CREATE TABLE Rubrique(<{{{><}}}>   Id_Rubrique INT AUTO_INCREMENT,<{{{><}}}>   Nom VARCHAR(50) ,<{{{><}}}>   PRIMARY KEY(Id_Rubrique)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\145<|||>1<|||>2023-12-04 14:02:49|the_twins_meches|194|CREATE TABLE SousRubrique(<{{{><}}}>   Id_Sous_Rubrique INT AUTO_INCREMENT,<{{{><}}}>   Nom VARCHAR(50) ,<{{{><}}}>   Id_Rubrique INT NOT NULL,<{{{><}}}>   PRIMARY KEY(Id_Sous_Rubrique),<{{{><}}}>   FOREIGN KEY(Id_Rubrique) REFERENCES Rubrique(Id_Rubrique)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\146<|||>1<|||>2023-12-04 14:03:09|the_twins_meches|113|CREATE TABLE Commercial(<{{{><}}}>   Id_Commercial INT AUTO_INCREMENT,<{{{><}}}>   commercial_nom VARCHAR(50) ,<{{{><}}}>   commercial_prenom VARCHAR(50) ,<{{{><}}}>   commercial_type INT,<{{{><}}}>   commercial_tel VARCHAR(15) ,<{{{><}}}>   PRIMARY KEY(Id_Commercial)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\147<|||>1<|||>2023-12-04 14:03:57|the_twins_meches|190|CREATE TABLE Client(<{{{><}}}>   cli_id INT AUTO_INCREMENT,<{{{><}}}>   Cli_nom VARCHAR(50) ,<{{{><}}}>   Cli_prénom VARCHAR(50) ,<{{{><}}}>   Cli_adresse_facturation VARCHAR(50) ,<{{{><}}}>   Cli_adresse_livraison VARCHAR(50) ,<{{{><}}}>   Cli_ville VARCHAR(50) ,<{{{><}}}>   Cli_cp INT,<{{{><}}}>   Cli_ref VARCHAR(50) ,<{{{><}}}>   cli_type INT,<{{{><}}}>   Cli_mail VARCHAR(50) ,<{{{><}}}>   cli_fone VARCHAR(50) ,<{{{><}}}>   Clien_Siret VARCHAR(50) ,<{{{><}}}>   Cli_Coef VARCHAR(50) ,<{{{><}}}>   Id_Commercial INT NOT NULL,<{{{><}}}>   PRIMARY KEY(cli_id),<{{{><}}}>   FOREIGN KEY(Id_Commercial) REFERENCES Commercial(Id_Commercial)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\148<|||>1<|||>2023-12-04 14:04:17|the_twins_meches|163|CREATE TABLE Produit(<{{{><}}}>   Id_Produit INT AUTO_INCREMENT,<{{{><}}}>   Pro_description VARCHAR(150) ,<{{{><}}}>   Pro_libelle VARCHAR(30) ,<{{{><}}}>   Pro_photo VARCHAR(50) ,<{{{><}}}>   Pro_prix DECIMAL(9,2)  ,<{{{><}}}>   Pro_Prix_ht DECIMAL(15,2)  ,<{{{><}}}>   Id_Sous_Rubrique INT NOT NULL,<{{{><}}}>   PRIMARY KEY(Id_Produit),<{{{><}}}>   FOREIGN KEY(Id_Sous_Rubrique) REFERENCES SousRubrique(Id_Sous_Rubrique)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\149<|||>1<|||>2023-12-04 14:04:37|the_twins_meches|187|CREATE TABLE utilisateur(<{{{><}}}>   user_id VARCHAR(50) ,<{{{><}}}>   rôles VARCHAR(50) ,<{{{><}}}>   email VARCHAR(50) ,<{{{><}}}>   user_password VARCHAR(50) ,<{{{><}}}>   Id_Commercial INT NOT NULL,<{{{><}}}>   cli_id INT NOT NULL,<{{{><}}}>   PRIMARY KEY(user_id),<{{{><}}}>   UNIQUE(Id_Commercial),<{{{><}}}>   UNIQUE(cli_id),<{{{><}}}>   FOREIGN KEY(Id_Commercial) REFERENCES Commercial(Id_Commercial),<{{{><}}}>   FOREIGN KEY(cli_id) REFERENCES Client(cli_id)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\150<|||>1<|||>2023-12-04 14:04:59|the_twins_meches|153|CREATE TABLE Commande(<{{{><}}}>   Id_Commande INT AUTO_INCREMENT,<{{{><}}}>   commande_date DATE,<{{{><}}}>   commande_numeros VARCHAR(50) ,<{{{><}}}>   Commande_reduc DECIMAL(4,2)  ,<{{{><}}}>   Commande_date_facturation DATE,<{{{><}}}>   Commande_Prix_tot DECIMAL(6,2)  ,<{{{><}}}>   Commande_date_reglem VARCHAR(50) ,<{{{><}}}>   Commande_Adresse VARCHAR(50) ,<{{{><}}}>   fa_id INT NOT NULL,<{{{><}}}>   cli_id INT NOT NULL,<{{{><}}}>   PRIMARY KEY(Id_Commande),<{{{><}}}>   UNIQUE(fa_id),<{{{><}}}>   FOREIGN KEY(fa_id) REFERENCES Facture(fa_id),<{{{><}}}>   FOREIGN KEY(cli_id) REFERENCES Client(cli_id)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\151<|||>1<|||>2023-12-04 14:05:17|the_twins_meches|211|CREATE TABLE Livraison(<{{{><}}}>   Id_Livraison INT AUTO_INCREMENT,<{{{><}}}>   li_num_bon VARCHAR(50) ,<{{{><}}}>   li_adresse VARCHAR(50) ,<{{{><}}}>   Id_Commande INT NOT NULL,<{{{><}}}>   PRIMARY KEY(Id_Livraison),<{{{><}}}>   FOREIGN KEY(Id_Commande) REFERENCES Commande(Id_Commande)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\152<|||>1<|||>2023-12-04 14:05:44|the_twins_meches|228|CREATE TABLE Livrer(<{{{><}}}>   Id_Fournisseur INT,<{{{><}}}>   Id_Produit INT,<{{{><}}}>   PRIMARY KEY(Id_Fournisseur, Id_Produit),<{{{><}}}>   FOREIGN KEY(Id_Fournisseur) REFERENCES Fournisseur(Id_Fournisseur),<{{{><}}}>   FOREIGN KEY(Id_Produit) REFERENCES Produit(Id_Produit)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\153<|||>1<|||>2023-12-04 14:06:02|the_twins_meches|276|CREATE TABLE Ligne_commande(<{{{><}}}>   Id_Commande INT,<{{{><}}}>   Id_Produit INT,<{{{><}}}>   quantite_commande INT NOT NULL,<{{{><}}}>   prix_vente DECIMAL(7,2)  ,<{{{><}}}>   PRIMARY KEY(Id_Commande, Id_Produit),<{{{><}}}>   FOREIGN KEY(Id_Commande) REFERENCES Commande(Id_Commande),<{{{><}}}>   FOREIGN KEY(Id_Produit) REFERENCES Produit(Id_Produit)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\154<|||>1<|||>2023-12-04 14:06:25|the_twins_meches|182|CREATE TABLE Contient(<{{{><}}}>   Id_Produit INT,<{{{><}}}>   Id_Livraison INT,<{{{><}}}>   qte_livree INT,<{{{><}}}>   date_livraison DATE,<{{{><}}}>   PRIMARY KEY(Id_Produit, Id_Livraison),<{{{><}}}>   FOREIGN KEY(Id_Produit) REFERENCES Produit(Id_Produit),<{{{><}}}>   FOREIGN KEY(Id_Livraison) REFERENCES Livraison(Id_Livraison)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\155<|||>1<|||>2023-12-04 15:25:08|the_twins_meches|24|INSERT INTO Fournisseur (fou_nom,fou_adresse,fou_cp,fou_ville,fou_tel)<{{{><}}}>VALUES ('Macosso','4 Rue de condé',80000,'Amiens','00330659874532'),<{{{><}}}>       ('Biville','3 Rue de Colver',80000,'Paris','00330736548129'),<{{{><}}}>       ('Domingas','4 Rue Avril',80090,'Anges','003307569321454');
+Servers\Unnamed\QueryHistory\156<|||>1<|||>2023-12-05 11:26:19|the_twins_meches|14|INSERT INTO Commercial(commercial_nom,commercial_prenom,commercial_type,commercial_tel)<{{{><}}}>VALUES('Moukengue','Aline',2,'1-800-656-2387'),<{{{><}}}>      ('Barros','Sandra',1,'1-863-278-5573');<{{{><}}}>	
+Servers\Unnamed\QueryHistory\157<|||>1<|||>2023-12-05 12:08:54|the_twins_meches|232|CREATE TABLE Ligne_commande(<{{{><}}}>   Id_Commande INT,<{{{><}}}>   Id_Produit INT,<{{{><}}}>   quantite_commande INT NOT NULL,<{{{><}}}>   prix_vente DECIMAL(7,2)  ,<{{{><}}}>   id INT,<{{{><}}}>   PRIMARY KEY(Id_Commande, Id_Produit),<{{{><}}}>   UNIQUE(id),<{{{><}}}>   FOREIGN KEY(Id_Commande) REFERENCES Commande(Id_Commande),<{{{><}}}>   FOREIGN KEY(Id_Produit) REFERENCES Produit(Id_Produit)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\158<|||>1<|||>2023-12-05 12:11:44|the_twins_meches|238|CREATE TABLE Contient(<{{{><}}}>   Id_Produit INT,<{{{><}}}>   Id_Livraison INT,<{{{><}}}>   qte_livree INT,<{{{><}}}>   numero_bon_livraison VARCHAR(50) ,<{{{><}}}>   date_livraison DATE,<{{{><}}}>   PRIMARY KEY(Id_Produit, Id_Livraison),<{{{><}}}>   UNIQUE(numero_bon_livraison),<{{{><}}}>   FOREIGN KEY(Id_Produit) REFERENCES Produit(Id_Produit),<{{{><}}}>   FOREIGN KEY(Id_Livraison) REFERENCES Livraison(Id_Livraison)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\159<|||>1<|||>2023-12-06 10:02:05|the_twins_meches|64|INSERT INTO Rubrique(nom)<{{{><}}}>VALUES ('Méches'),<{{{><}}}>     ('Perruque'),<{{{><}}}>     ('Lace front');
+Servers\Unnamed\QueryHistory\160<|||>1<|||>2023-12-06 15:49:47|the_twins_meches|11|<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>INSERT INTO Commande (commande_date, commande_numeros, Commande_reduc, Commande_date_facturation, Commande_Prix_tot, Commande_date_reglem, Commande_Adresse, fa_id, cli_id)<{{{><}}}>VALUES ('2023-01-20', 'CMD789', 0.05, '2023-04-05', 700.00, '2023-04-10', '789 Billing St', 4, 2);<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\19<|||>1<|||>2023-11-07 11:46:08|gescom|40|<{{{><}}}><{{{><}}}>CREATE USER 'util3'@'%' IDENTIFIED BY 'vivi';
+Servers\Unnamed\QueryHistory\2<|||>1<|||>2023-12-06 14:08:48|the_twins_meches|69|<{{{><}}}><{{{><}}}><{{{><}}}>INSERT INTO Client (Cli_nom, Cli_prénom, Cli_adresse_facturation, Cli_adresse_livraison, Cli_ville, Cli_cp, Cli_ref, cli_type, Cli_mail, cli_fone, Clien_Siret, Cli_Coef, Id_Commercial)<{{{><}}}>VALUES ('Doe', 'John', '123 Main St', '456 Delivery St', 'Cityville', 12345, 'ClientRef1', 1, 'john.doe@example.com', '123-456-7890', '123456789', '1.2', 2);<{{{><}}}>
+Servers\Unnamed\QueryHistory\20<|||>1<|||>2023-11-07 11:47:33|gescom|115|<{{{><}}}><{{{><}}}><{{{><}}}>GRANT SELECT ON gescom.customers TO 'util3';
+Servers\Unnamed\QueryHistory\21<|||>1<|||>2023-11-07 15:19:56|gescom|12|<{{{><}}}>INSERT INTO categories(cat_id, cat_name, cat_parent_id)<{{{><}}}>VALUES <{{{><}}}>(1,'méches',2);
+Servers\Unnamed\QueryHistory\22<|||>1<|||>2023-11-08 11:45:20|gescom|1|CREATE DATABASE execercice1;
+Servers\Unnamed\QueryHistory\23<|||>1<|||>2023-11-08 11:56:11|gescom|18|INSERT INTO  products<{{{><}}}>(pro_ref,pro_name,pro_desc,pro_price,pro_add_date,pro_update_date,pro_publish,cat_id,sup_id)<{{{><}}}>VALUES <{{{><}}}>('PRO_0','Tissage brésilien lisse','cheveux brésiliens de qualité supérieur longueur de 10 à 34 pouces.',33,12/06/2020,03/02/2021,0,1,null);
+Servers\Unnamed\QueryHistory\24<|||>1<|||>2023-11-08 13:24:01|execercice1|160|CREATE TABLE personne (per_num INT NOT NULL AUTO_INCREMENT PRIMARY KEY,per_nom VARCHAR (50),per_prénom VARCHAR (50),per_adresse VARCHAR(150),per_ville VARCHAR(100));
+Servers\Unnamed\QueryHistory\25<|||>1<|||>2023-11-08 13:32:19|execercice1|128|CREATE TABLE groupe ( gro_num INT NOT NULL AUTO_INCREMENT PRIMARY KEY,gro_libelle VARCHAR(50));
+Servers\Unnamed\QueryHistory\26<|||>1<|||>2023-11-08 14:05:51|execercice1|305|CREATE TABLE appartient(per_num INT, FOREIGN KEY(per_num) REFERENCES personne(per_num),gro_num INT ,FOREIGN KEY(gro_num) REFERENCES groupe(gro_num));
+Servers\Unnamed\QueryHistory\27<|||>1<|||>2023-11-09 09:54:59||0|CREATE DATABASE gescom;
+Servers\Unnamed\QueryHistory\28<|||>1<|||>2023-11-09 09:57:36|gescom|160|CREATE TABLE customers(<{{{><}}}>   cus_id INT AUTO_INCREMENT,<{{{><}}}>   cus_lastname VARCHAR(50) ,<{{{><}}}>   cus_firstname VARCHAR(50) ,<{{{><}}}>   cus_adresse VARCHAR(150) ,<{{{><}}}>   cus_zipcode VARCHAR(5) ,<{{{><}}}>   cus_city VARCHAR(50) ,<{{{><}}}>   cus_mail VARCHAR(75) ,<{{{><}}}>   cus_phone VARCHAR(10) ,<{{{><}}}>   PRIMARY KEY(cus_id)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\29<|||>1<|||>2023-11-09 09:58:19|gescom|155|CREATE TABLE oders(<{{{><}}}>   ord_id INT AUTO_INCREMENT,<{{{><}}}>   ord_order_date DATE,<{{{><}}}>   prd_ship_date DATE,<{{{><}}}>   ord_bill_date DATE,<{{{><}}}>   ord_reception_date DATE,<{{{><}}}>   ord_status VARCHAR(25) ,<{{{><}}}>   cus_id INT NOT NULL,<{{{><}}}>   PRIMARY KEY(ord_id),<{{{><}}}>   FOREIGN KEY(cus_id) REFERENCES customers(cus_id)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\3<|||>1<|||>2023-12-06 14:11:22|the_twins_meches|10|<{{{><}}}>INSERT INTO Client (Cli_nom, Cli_prénom, Cli_adresse_facturation, Cli_adresse_livraison, Cli_ville, Cli_cp, Cli_ref, cli_type, Cli_mail, cli_fone, Clien_Siret, Cli_Coef, Id_Commercial)<{{{><}}}>VALUES ('Dupont', 'Alice', '789 Billing St', '101 Shipping St', 'Townsville', 54321, 'ClientRef2', 2, 'alice.dupont@example.com', '987-654-3210', '987654321', '1.5', 1);<{{{><}}}><{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\30<|||>1<|||>2023-11-09 09:59:14|gescom|185|CREATE TABLE categories(<{{{><}}}>   cat_id INT AUTO_INCREMENT,<{{{><}}}>   cat_name VARCHAR(50) ,<{{{><}}}>   cat_id_1 INT NOT NULL,<{{{><}}}>   PRIMARY KEY(cat_id),<{{{><}}}>   FOREIGN KEY(cat_id_1) REFERENCES categories(cat_id)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\31<|||>1<|||>2023-11-09 09:59:51|gescom|181|CREATE TABLE products(<{{{><}}}>   pro_id INT AUTO_INCREMENT,<{{{><}}}>   pro_ref VARCHAR(10) ,<{{{><}}}>   pro_name VARCHAR(200) ,<{{{><}}}>   pro_desc TEXT,<{{{><}}}>   pro_price DECIMAL(6,2)  ,<{{{><}}}>   pro_stock SMALLINT,<{{{><}}}>   pro_color VARCHAR(30) ,<{{{><}}}>   pro_picture VARCHAR(40) ,<{{{><}}}>   pro_add_date DATE,<{{{><}}}>   pro_update_date DATETIME,<{{{><}}}>   pro_publish TINYINT,<{{{><}}}>   sup_id INT,<{{{><}}}>   cat_id INT NOT NULL,<{{{><}}}>   PRIMARY KEY(pro_id),<{{{><}}}>   FOREIGN KEY(sup_id) REFERENCES suppliers(sup_id),<{{{><}}}>   FOREIGN KEY(cat_id) REFERENCES categories(cat_id)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\32<|||>1<|||>2023-11-09 10:04:59|gescom|211|CREATE TABLE details(<{{{><}}}>   ord_id INT,<{{{><}}}>   pro_id INT,<{{{><}}}>   det_id INT AUTO_INCREMENT,<{{{><}}}>   det_price DECIMAL(6,2)  ,<{{{><}}}>   det_quantity INT,<{{{><}}}>   PRIMARY KEY(det_id),<{{{><}}}>   FOREIGN KEY(ord_id) REFERENCES oders(ord_id),<{{{><}}}>   FOREIGN KEY(pro_id) REFERENCES products(pro_id)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\33<|||>1<|||>2023-11-10 09:18:05|gescom|214|CREATE INDEX pro_ref ON products (pro_ref);
+Servers\Unnamed\QueryHistory\34<|||>1<|||>2023-11-10 09:23:00|gescom|1|CREATE DATABASE exercice2;
+Servers\Unnamed\QueryHistory\35<|||>1<|||>2023-11-10 10:02:22|exercice2|105|CREATE TABLE hotel (nom_hotel VARCHAR(50),categorie_hotel VARCHAR(80),capacite_hotel INT,adresse_hotel VARCHAR(100),num_hotel INT PRIMARY KEY<{{{><}}}>);
+Servers\Unnamed\QueryHistory\36<|||>1<|||>2023-11-10 10:17:36||1|CREATE DATABASE hotel;<{{{><}}}>
+Servers\Unnamed\QueryHistory\37<|||>1<|||>2023-11-10 10:27:38||0|CREATE DATABASE hotel;
+Servers\Unnamed\QueryHistory\38<|||>1<|||>2023-11-10 10:29:34|hotel|189|CREATE TABLE station (<{{{><}}}>	sta_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,<{{{><}}}>	sta_nom VARCHAR(50) NOT NULL,<{{{><}}}>	sta_altitude INT<{{{><}}}>);
+Servers\Unnamed\QueryHistory\39<|||>1<|||>2023-11-10 10:30:24|hotel|158|CREATE TABLE hotel (<{{{><}}}>	hot_id 			INT AUTO_INCREMENT NOT NULL,<{{{><}}}>	hot_sta_id 		INT NOT NULL,<{{{><}}}>	hot_nom 		VARCHAR(50) NOT NULL,<{{{><}}}>	hot_categorie 	INT NOT NULL,<{{{><}}}>	hot_adresse		VARCHAR(50) NOT NULL,<{{{><}}}>	hot_ville 		VARCHAR(50) NOT NULL, <{{{><}}}>	FOREIGN KEY (hot_sta_id) REFERENCES station(sta_id),<{{{><}}}>	PRIMARY KEY (hot_id)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\4<|||>1<|||>2023-12-06 14:26:56|the_twins_meches|54|--<{{{><}}}>INSERT INTO Produit (Pro_description, Pro_libelle, Pro_photo, Pro_prix, Pro_Prix_ht, Id_Sous_Rubrique)<{{{><}}}>VALUES ('Tissage Brésilien Lisse de qualité supérieure,longueur de 10 à 34 pouces,pour tout les gouts!', 'Tissage Bresilien Lisse', 'tissage_bresilien_lisse.jpg', 79.99, 65.00, 1);<{{{><}}}>
+Servers\Unnamed\QueryHistory\40<|||>1<|||>2023-11-10 10:30:57|hotel|170|CREATE TABLE chambre (<{{{><}}}>	cha_id INT NOT NULL AUTO_INCREMENT ,<{{{><}}}>	cha_hot_id INT NOT NULL,<{{{><}}}>	cha_numero INT NOT NULL,<{{{><}}}>	cha_capacite INT NOT NULL,<{{{><}}}>	cha_type INT NOT NULL,<{{{><}}}>	FOREIGN KEY (cha_hot_id) REFERENCES hotel(hot_id),<{{{><}}}>	PRIMARY KEY (cha_id)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\41<|||>1<|||>2023-11-10 10:31:28|hotel|100|CREATE TABLE client (<{{{><}}}>	cli_id INT NOT NULL AUTO_INCREMENT ,<{{{><}}}>	cli_nom VARCHAR(50),<{{{><}}}>	cli_prenom VARCHAR(50),<{{{><}}}>	cli_adresse VARCHAR(50),<{{{><}}}>	cli_ville VARCHAR(50),<{{{><}}}>	PRIMARY KEY (cli_id)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\42<|||>1<|||>2023-11-10 10:32:03|hotel|232|CREATE TABLE reservation (<{{{><}}}>	res_id INT NOT NULL AUTO_INCREMENT,<{{{><}}}>	res_cha_id INT NOT NULL ,<{{{><}}}>	res_cli_id INT NOT NULL ,<{{{><}}}>	res_date DATETIME NOT NULL,<{{{><}}}>	res_date_debut DATETIME NOT NULL,<{{{><}}}>	res_date_fin DATETIME NOT NULL,<{{{><}}}>	res_prix DECIMAL(6,2) NOT NULL,<{{{><}}}>	res_arrhes DECIMAL(6,2),<{{{><}}}>	FOREIGN KEY (res_cha_id) REFERENCES chambre(cha_id),<{{{><}}}>	FOREIGN KEY (res_cli_id) REFERENCES client(cli_id),<{{{><}}}>	PRIMARY KEY (res_id)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\43<|||>1<|||>2023-11-10 10:33:11|hotel|32|INSERT INTO station (sta_id, sta_nom, sta_altitude) VALUES (1, 'La Montagne', 2500);<{{{><}}}>INSERT INTO station (sta_id, sta_nom, sta_altitude) VALUES (2, 'Le Sud', 200);<{{{><}}}>INSERT INTO station (sta_id, sta_nom, sta_altitude) VALUES (3, 'La Plage', 10);<{{{><}}}>
+Servers\Unnamed\QueryHistory\44<|||>1<|||>2023-11-10 10:39:20|gescom|23|INSERT INTO categories (cat_name)<{{{><}}}>VALUES ('Méches');
+Servers\Unnamed\QueryHistory\45<|||>1<|||>2023-11-10 10:40:42|gescom|52|INSERT INTO categories (cat_name, cat_id_1)<{{{><}}}>VALUES ('Tissages Lisse', 6);
+Servers\Unnamed\QueryHistory\46<|||>1<|||>2023-11-10 10:41:26|gescom|24|INSERT INTO categories (cat_name, cat_id_1)<{{{><}}}>VALUES ('Tissage Afro', 6);
+Servers\Unnamed\QueryHistory\47<|||>1<|||>2023-11-10 10:50:27|gescom|20|INSERT INTO products(pro_ref,pro_name,pro_desc,pro_stock,pro_color,pro_picture,pro_add_date,pro_publish,sup_id,cat_id)<{{{><}}}>VALUES('pro_0','Tissage nature',' Texture Naturelle Une ondulation parfaite similaire aux cheveux naturels pour un look authentique et séduisant.',23,'bleu',NULL ,01/02/2012,1, NULL,7);
+Servers\Unnamed\QueryHistory\48<|||>1<|||>2023-11-10 10:54:03|gescom|45|INSERT INTO products(pro_ref,pro_name,pro_desc,pro_stock,pro_color,pro_picture,pro_add_date,pro_publish,sup_id,cat_id)<{{{><}}}>VALUES('pro_1','Tissage Ondulé', 'ondulation parfaite similaire aux cheveux naturels pour un look authentique et séduisant.',24,'rouge',NULL ,13/02/2012,1, NULL,8);
+Servers\Unnamed\QueryHistory\49<|||>1<|||>2023-11-13 10:18:47|papyrus|1|<{{{><}}}> SELECT DISTINCT  numfou FROM entcom<{{{><}}}>WHERE numfou ='9120';
+Servers\Unnamed\QueryHistory\5<|||>1<|||>2023-12-06 14:35:20|the_twins_meches|23|<{{{><}}}>INSERT INTO Produit (Pro_description, Pro_libelle, Pro_photo, Pro_prix, Pro_Prix_ht, Id_Sous_Rubrique)<{{{><}}}>VALUES ('Perruque  de qualité supérieure à poter tout les jours', 'Perruque Courte Bouclée', 'perruque.jpg', 129.99, 110.00, 2);<{{{><}}}>
+Servers\Unnamed\QueryHistory\50<|||>1<|||>2023-11-13 10:20:08|papyrus|0|<{{{><}}}> SELECT numfou, COUNT(numfou) FROM entcom<{{{><}}}>GROUP BY numfou;
+Servers\Unnamed\QueryHistory\51<|||>1<|||>2023-11-13 11:00:39|papyrus|1|SELECT codart,libart,stkale,stkphy FROM produit <{{{><}}}>WHERE stkphy<= stkale AND qteann<1000;<{{{><}}}>
+Servers\Unnamed\QueryHistory\52<|||>1<|||>2023-11-13 11:14:58|papyrus|1|SELECT nomfou, substring(posfou,1,2) as 'Départements' from fournis where substring(posfou,1,2) in ('75', '78', '92', '77') order by posfou desc, nomfou;<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\53<|||>1<|||>2023-11-13 12:03:39|papyrus|1|<{{{><}}}>SELECT NUMCOM, DATCOM FROM entcom   WHERE  datcom LIKE "_____%04";
+Servers\Unnamed\QueryHistory\54<|||>1<|||>2023-11-13 12:04:22|papyrus|0|<{{{><}}}>SELECT NUMCOM, DATCOM FROM entcom   WHERE  datcom LIKE "_____%04%";
+Servers\Unnamed\QueryHistory\55<|||>1<|||>2023-11-13 14:11:57|papyrus|1|<{{{><}}}>SELECT numcom,datcom FROM entcom WHERE obscom;
+Servers\Unnamed\QueryHistory\56<|||>1<|||>2023-11-13 14:16:09|papyrus|0|<{{{><}}}>SELECT numcom,datcom FROM entcom WHERE obscom LIKE 'c%';
+Servers\Unnamed\QueryHistory\57<|||>1<|||>2023-11-13 14:15:07|papyrus|1|<{{{><}}}>SELECT numcom,datcom FROM entcom WHERE obscom LIKE 'comande';
+Servers\Unnamed\QueryHistory\58<|||>1<|||>2023-11-13 14:16:19|papyrus|0|<{{{><}}}>SELECT numcom,datcom FROM entcom WHERE obscom LIKE '%c%';
+Servers\Unnamed\QueryHistory\59<|||>1<|||>2023-11-13 14:17:50|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom WHERE obscom LIKE '%c%';
+Servers\Unnamed\QueryHistory\6<|||>1<|||>2023-12-06 14:45:06|the_twins_meches|45|<{{{><}}}>INSERT INTO Produit (Pro_description, Pro_libelle, Pro_photo, Pro_prix, Pro_Prix_ht, Id_Sous_Rubrique)<{{{><}}}>VALUES ('Lace Frontal ondulé composé totalment de cheveux 100% naturels', 'Lace Frontal Ondulé', 'lace_frontal.jpg', 49.99, 40.00, 3);<{{{><}}}>
+Servers\Unnamed\QueryHistory\60<|||>1<|||>2023-11-13 14:20:24|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom;
+Servers\Unnamed\QueryHistory\61<|||>1<|||>2023-11-13 14:21:51|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom WHERE 'obscom';
+Servers\Unnamed\QueryHistory\62<|||>1<|||>2023-11-13 14:25:26|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom WHERE obscom IS NOT NULL;
+Servers\Unnamed\QueryHistory\63<|||>1<|||>2023-11-13 14:26:58|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom WHERE obscom IS  NULL;
+Servers\Unnamed\QueryHistory\64<|||>1<|||>2023-11-13 14:28:00|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom WHERE obscom IS NOT  NULL;
+Servers\Unnamed\QueryHistory\65<|||>1<|||>2023-11-13 14:28:27|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom WHERE obscom IS NOT  NULL OR obscom='';
+Servers\Unnamed\QueryHistory\66<|||>1<|||>2023-11-13 14:28:41|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom WHERE obscom IS NOT  NULL OR obscom=' ';
+Servers\Unnamed\QueryHistory\67<|||>1<|||>2023-11-13 14:29:05|papyrus|1|<{{{><}}}>SELECT* FROM entcom WHERE obscom IS NOT  NULL OR obscom=' ';
+Servers\Unnamed\QueryHistory\68<|||>1<|||>2023-11-13 14:32:34|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom WHERE 'obscom'IS NOT  NULL OR obscom=' ';
+Servers\Unnamed\QueryHistory\69<|||>1<|||>2023-11-13 14:35:56|papyrus|0|<{{{><}}}>SELECT numcom,datcom,obscom FROM entcom WHERE obscom !=' ';
+Servers\Unnamed\QueryHistory\7<|||>1<|||>2023-12-06 15:08:46|the_twins_meches|27|<{{{><}}}>INSERT INTO utilisateur (user_id, rôles, email, user_password, Id_Commercial, cli_id)<{{{><}}}>VALUES ('user1', 'commercial', 'user1@example.com', 'password123', 1, 2);<{{{><}}}><{{{><}}}>INSERT INTO utilisateur (user_id, rôles, email, user_password, Id_Commercial, cli_id)<{{{><}}}>VALUES ('user2', 'client', 'user2@example.com', 'securepass',2, 1);<{{{><}}}>
+Servers\Unnamed\QueryHistory\70<|||>1<|||>2023-11-13 15:08:39|papyrus|1|<{{{><}}}><{{{><}}}>SELECT  numcom,(priuni *qtecde)AS total FROM ligcom  ORDER BY total DESC;
+Servers\Unnamed\QueryHistory\71<|||>1<|||>2023-11-13 15:23:16|papyrus|1|<{{{><}}}><{{{><}}}>SELECT  numcom,(priuni *qtecde)AS total FROM ligcom   WHERE qtecde <= 1000  and (priuni*qtecde)>10000;<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\72<|||>1<|||>2023-11-13 15:58:51|papyrus|1|<{{{><}}}><{{{><}}}>SELECT  nomfou,numcom,derliv FROM ligcom INNER JOIN   fournis <{{{><}}}>ON ligcom.numcom = fournis.numfou;<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\73<|||>1<|||>2023-11-13 16:19:20|papyrus|1|<{{{><}}}><{{{><}}}>SELECT  .fournis.nomfou,ligcom.numcom,derliv FROM ligcom INNER JOIN entcom<{{{><}}}>ON ligcom.numcom = entcom.numcom INNER JOIN fournis ON entcom.numfou = fournis.numfou;<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\74<|||>1<|||>2023-11-13 16:42:18|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>LIKE obscom ='%urgent';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\75<|||>1<|||>2023-11-13 16:36:58|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM produit <{{{><}}}>INNER JOIN entcom ON produit.libart = entcom.obscom<{{{><}}}>WHERE obscom ='urgent';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\76<|||>1<|||>2023-11-13 16:41:48|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE obscom ='urgent';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\77<|||>1<|||>2023-11-13 16:42:38|papyrus|1|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>LIKE obscom ='%urgent%';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\78<|||>1<|||>2023-11-13 16:42:50|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE  obscom ='%urgent%';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\79<|||>1<|||>2023-11-13 16:43:40|papyrus|1|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE  obscom LIKE'%urgente%';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\8<|||>1<|||>2023-11-09 09:57:05|gescom|117|CREATE TABLE suppliers(<{{{><}}}>   sup_id INT AUTO_INCREMENT,<{{{><}}}>   sup_name VARCHAR(50) ,<{{{><}}}>   sup_city VARCHAR(50) ,<{{{><}}}>   sup_adresse VARCHAR(150) ,<{{{><}}}>   sup_mail VARCHAR(75) ,<{{{><}}}>   sup_phone VARCHAR(10) ,<{{{><}}}>   PRIMARY KEY(sup_id)<{{{><}}}>);<{{{><}}}>
+Servers\Unnamed\QueryHistory\80<|||>1<|||>2023-11-13 16:43:03|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE  obscom LIKE'%urgent%';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\81<|||>1<|||>2023-11-13 16:45:23|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE  obscom LIKE '%urgente%';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\82<|||>1<|||>2023-11-13 16:44:54|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE  obscom LIKE"%urgente%";<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\83<|||>1<|||>2023-11-13 16:46:31|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE obscom LIKE '%urgente%';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\84<|||>1<|||>2023-11-14 10:00:21|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE obscom LIKE '%c%';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\85<|||>1<|||>2023-11-13 16:46:52|papyrus|1|<{{{><}}}>SELECT produit.libart,entcom.obscom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE obscom LIKE '%urg%';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\86<|||>1<|||>2023-11-14 10:03:57|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom,entcom.numcom FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE obscom LIKE '%c%';<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\87<|||>1<|||>2023-11-14 10:18:09|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom,entcom.numcom,fournis.nomfou FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>INNER JOIN fournis ON fournis.nomfou =ligcom.qtecde;
+Servers\Unnamed\QueryHistory\88<|||>1<|||>2023-11-14 10:16:31|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom,entcom.numcom,fournis.nomfou FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.obscom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>INNER JOIN fournis ON fournis.nomfou =ligcom.qtecde<{{{><}}}>WHERE OBSCOM LIKE 'commande urgente';
+Servers\Unnamed\QueryHistory\89<|||>1<|||>2023-11-14 10:19:24|papyrus|1|<{{{><}}}>SELECT produit.libart,entcom.obscom,entcom.numcom,fournis.nomfou FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>INNER JOIN fournis ON fournis.nomfou =ligcom.qtecde<{{{><}}}>WHERE OBSCOM LIKE 'commande urgente';
+Servers\Unnamed\QueryHistory\9<|||>1<|||>2023-12-06 15:30:32|the_twins_meches|25|<{{{><}}}><{{{><}}}>INSERT INTO Commande (commande_date,  commande_numeros, Commande_reduc, Commande_date_facturation, Commande_Prix_tot, Commande_date_reglem, Commande_Adresse, fa_id,cli_id)<{{{><}}}>VALUES ('2023-03-15', 'CMD123', 0.1, '2023-01-20', 500.00, '2023-01-25', '123 Main St', 3, 1);<{{{><}}}>
+Servers\Unnamed\QueryHistory\90<|||>1<|||>2023-11-14 10:20:20|papyrus|1|<{{{><}}}>SELECT produit.libart,entcom.obscom,entcom.numcom,fournis.nomfou FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>INNER JOIN fournis ON fournis.nomfou =entcom.numfou<{{{><}}}>;
+Servers\Unnamed\QueryHistory\91<|||>1<|||>2023-11-14 10:20:06|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.obscom,entcom.numcom,fournis.nomfou FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>INNER JOIN fournis ON fournis.nomfou =entcom.numfou<{{{><}}}>WHERE OBSCOM LIKE 'commande urgente';
+Servers\Unnamed\QueryHistory\92<|||>1<|||>2023-11-14 10:27:21|papyrus|1|<{{{><}}}>SELECT produit.libart,entcom.obscom,entcom.numcom,fournis.nomfou FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>INNER JOIN fournis ON fournis.nomfou =entcom.numfou<{{{><}}}>WHERE OBSCOM LIKE '%urgente%';
+Servers\Unnamed\QueryHistory\93<|||>1<|||>2023-11-14 10:31:00|papyrus|0|<{{{><}}}>SELECT produit.libart,entcom.numcom,fournis.nomfou,ligcom.qteliv * ligcom.priuni  FROM entcom <{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>INNER JOIN fournis ON fournis.nomfou =entcom.numfou<{{{><}}}>WHERE OBSCOM LIKE "%urgente%";
+Servers\Unnamed\QueryHistory\94<|||>1<|||>2023-11-14 10:33:57|papyrus|1|<{{{><}}}>SELECT produit.libart,entcom.numcom,fournis.nomfou,ligcom.qteliv * ligcom.priuni  FROM entcom <{{{><}}}>INNER JOIN fournis ON fournis.nomfou =entcom.numfou<{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE OBSCOM LIKE "%urgente%";
+Servers\Unnamed\QueryHistory\95<|||>1<|||>2023-11-14 10:35:50|papyrus|1|<{{{><}}}>SELECT produit.libart,entcom.numcom,fournis.nomfou,ligcom.qteliv * ligcom.priuni  FROM entcom <{{{><}}}>INNER JOIN fournis ON fournis.nomfou =entcom.numfou<{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE entcom.obscom LIKE "%urgente%";
+Servers\Unnamed\QueryHistory\96<|||>1<|||>2023-11-14 10:36:41|papyrus|1|<{{{><}}}>SELECT produit.libart,entcom.numcom,fournis.nomfou,ligcom.qteliv * ligcom.priuni  FROM entcom <{{{><}}}>INNER JOIN fournis ON fournis.nomfou =entcom.numfou<{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE entcom.obscom LIKE "%urgente";
+Servers\Unnamed\QueryHistory\97<|||>1<|||>2023-11-14 10:39:56|papyrus|1|<{{{><}}}>SELECT produit.libart,ligcom.numcom,fournis.nomfou,ligcom.qteliv * ligcom.priuni  FROM entcom <{{{><}}}>INNER JOIN fournis ON fournis.nomfou =entcom.numfou<{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE entcom.obscom LIKE "%urgente";<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\98<|||>1<|||>2023-11-14 10:42:08|papyrus|1|<{{{><}}}>SELECT produit.libart,ligcom.numcom,fournis.nomfou,ligcom.qtecde * ligcom.priuni  FROM entcom <{{{><}}}>INNER JOIN fournis ON fournis.nomfou =entcom.numfou<{{{><}}}>INNER JOIN ligcom  ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE entcom.obscom LIKE "%urgente";<{{{><}}}><{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\99<|||>1<|||>2023-11-14 10:43:02|papyrus|1|<{{{><}}}><{{{><}}}>SELECT ligcom.numcom, fournis.nomfou, produit.libart, ligcom.qtecde * ligcom.priuni FROM entcom<{{{><}}}>INNER JOIN fournis ON fournis.numfou = entcom.numfou<{{{><}}}>INNER JOIN ligcom ON ligcom.numcom = entcom.numcom<{{{><}}}>INNER JOIN produit ON produit.codart = ligcom.codart<{{{><}}}>WHERE entcom.obscom LIKE "%urgente";
+Servers\Unnamed\the_twins_meches|utilisateur\Sort<|||>1<|||>1_email|1_user_id|

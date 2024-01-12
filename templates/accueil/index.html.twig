@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	Accueil The Twins Shop
+{% endblock %}
+
+{% block body %}
+
+<style>/* .example-wrapper {
+			margin: 1em auto;
+			max-width: 800px;
+			width: 95%;
+			font: 18px / 1.5 sans-serif;
+		}
+		.example-wrapper code {
+			background: #F5F5F5;
+			padding: 2px 6px;
+		} */
+/* img {
+			margin: 1px;
+			height: auto;
+			width: 35%;
+			padding: 1px; 
+
+		 } */</style>
+		 <div class="col-12">
+		 <h1>Top Rubriques</h1>
+		 </div>
+
+
+{% for rubrique in rubriques %}
+
+  <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
+            {# <a href="/categorie/{{categorie.id}}"> #}
+            <a href="{{ path('app_rubrique', { rubrique: rubrique.id}) }}">
+                <div class="card" style="">
+				<img src="{{ asset('/assets/image/') ~ rubrique.image }} " class="card-img-top"/>
+                    {# <img src="{{rubrique.image}}" class="card-img-top" alt="..."> #}
+                    <div class="card-body" style= "width: 500px">
+                        <h5 class="card-title">{{rubrique.nom}}</h5>
+                    </div>
+                </div>            
+            </a>
+        </div>
+	{# {{ rubrique.nom }}
+	<img src="{{ asset('/assets/image/')~rubrique.image }}" alt="">
+	<div class="card-body" style="width: 500px">
+		<a href="{{ path('app_rubrique',{'id':rubrique.id}) }}" id="btn-style" class="btn">Detail</a>
+	</div> #}
+
+
+{% endfor %}{% endblock %}
