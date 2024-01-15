@@ -2,9 +2,11 @@
 
 namespace App\Entity;
 
-use App\Repository\LigneCommandeRepository;
+use App\Entity\Produit;
+use App\Entity\Commande;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use App\Repository\LigneCommandeRepository;
 
 #[ORM\Entity(repositoryClass: LigneCommandeRepository::class)]
 class LigneCommande
@@ -22,11 +24,11 @@ class LigneCommande
 
     #[ORM\ManyToOne(inversedBy: 'ligneCommandes')]
     #[ORM\JoinColumn(nullable: false)]
-    private ?commande $commande = null;
+    private ?Commande $commande = null;
 
     #[ORM\ManyToOne(inversedBy: 'ligneCommandes')]
     #[ORM\JoinColumn(nullable: false)]
-    private ?produit $produit = null;
+    private ?Produit $produit = null;
 
     public function getId(): ?int
     {

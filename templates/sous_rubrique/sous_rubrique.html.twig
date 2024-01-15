@@ -3,5 +3,21 @@
 {% block title %}SousRubrique{% endblock %}
 
 {% block body %}
-<p>SousRubrique</p>
+<p>SousRubrique {{sousrubrique.nom}}</p>
+
+
+<p>Liste des produits</p>
+ <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
+            {# <a href="/categorie/{{categorie.id}}"> #}
+            <a href="{{ path('app_sous_rubrique', { sousrubrique: rub.id}) }}">
+                <div class="card" style="">
+				<img src="{{ asset('/assets/image/') ~ rub.image }} " class="card-img-top"/>
+                    {# <img src="{{rubrique.image}}" class="card-img-top" alt="..."> #}
+                    <div class="card-body" style= "width: 500px">
+                        <h5 class="card-title">{{rub.nom}}</h5>
+                    </div>
+                </div>            
+            </a>
+        </div>
+
 {% endblock %}
