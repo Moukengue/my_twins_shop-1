@@ -87,6 +87,22 @@ class Jeu1 extends Fixture
            $rubrique5->addSousRubrique($sousRubrique12);
           //  $sousrubrique12 ->setRubrique($rubrique7);
            $manager->persist($sousRubrique12);
+
+           $sousRubrique12 = new sousRubrique();
+           $sousRubrique12->setNom("Perruque avec Frange");
+           $sousRubrique12 ->setImage("perruquelissefrange.jpg");
+           $rubrique5->addSousRubrique($sousRubrique12);
+          //  $sousrubrique12 ->setRubrique($rubrique7);
+           $manager->persist($sousRubrique12);
+
+           $sousRubrique12 = new sousRubrique();
+           $sousRubrique12->setNom("Perruque avec Frange");
+           $sousRubrique12 ->setImage("perruquelissefrange.jpg");
+           $rubrique5->addSousRubrique($sousRubrique12);
+          //  $rubrique7 ->addSousRubrique($rubrique7);
+           $manager->persist($sousRubrique12);
+
+           
            
            //Liste des prosuits
            $produit13 = new Produit();
@@ -94,7 +110,23 @@ class Jeu1 extends Fixture
            $produit13 ->setDescription("La frange longue avec des longs cheveux lisses, une coupe tendance indémodable.");
            $produit13 ->setPhoto("perruquelissefrange.jpg");
            $produit13 ->setPrix(150.99);
-           $produit13 ->setPrix(140.99);
+           $produit13 ->setPrixHt(140.99);
+           $produit13 ->setSousRubrique($sousRubrique12);
+           $manager->persist($produit13);
+
+           $produit13 ->setLibelle("Perruque avec Frange");
+           $produit13 ->setDescription("La frange longue avec des longs cheveux lisses, une coupe tendance indémodable.");
+           $produit13 ->setPhoto("perruquelissefrange.jpg");
+           $produit13 ->setPrix(150.99);
+           $produit13 ->setPrixHt(140.99);
+           $produit13 ->setSousRubrique($sousRubrique12);
+           $manager->persist($produit13);
+
+           $produit13 ->setLibelle("Perruque avec Frange");
+           $produit13 ->setDescription("La frange longue avec des longs cheveux lisses, une coupe tendance indémodable.");
+           $produit13 ->setPhoto("perruquelissefrange.jpg");
+           $produit13 ->setPrix(150.99);
+           $produit13 ->setPrixHt(140.99);
            $produit13 ->setSousRubrique($sousRubrique12);
            $manager->persist($produit13);
 

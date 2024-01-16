@@ -14,12 +14,12 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class RubriqueController extends AbstractController
 {
 
-    #[Route('/rubrique/{rubrique}', name: 'app_rubrique')]
-    public function rubrique(Rubrique $rubrique): Response
+    #[Route('/rubrique', name: 'app_rubrique')]
+    public function rubrique(RubriqueRepository $rubriqueRepo): Response
     {
-        // $rubriques=$rubriqueRepo->FindAll();
+        $rubriques=$rubriqueRepo->FindAll();
         return $this->render('rubrique/rubrique.html.twig',[
-            "rubrique"=>$rubrique,
+            "rubriques"=>$rubriques,
         ]
         );
     }

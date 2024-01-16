@@ -4,13 +4,13 @@
 
 {% block body %}
 <h1>Détail de la rubrique et la liste des sous-rubrique</h1>
-<h2>{{rubrique.nom}}</h2>
+<h2></h2>
 
-{% for rub in rubrique.sousRubriques %}
+{% for rub in rubriques%}
 
   <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
             {# <a href="/categorie/{{categorie.id}}"> #}
-            <a href="{{ path('app_sous_rubrique', { sousrubrique: rub.id}) }}">
+            <a href="{{ path('app_sous_rubrique', { rubrique: rub.id}) }}">
                 <div class="card" style="">
 				<img src="{{ asset('/assets/image/') ~ rub.image }} " class="card-img-top"/>
                     {# <img src="{{rubrique.image}}" class="card-img-top" alt="..."> #}
