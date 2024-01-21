@@ -5,7 +5,6 @@ use App\Entity\SousRubrique;
 use App\Repository\SousRubriqueRepository;
 use App\Repository\RubriqueRepository;
 use Symfony\Component\HttpFoundation\Response;
-
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 

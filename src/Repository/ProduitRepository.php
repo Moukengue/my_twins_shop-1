@@ -21,6 +21,26 @@ class ProduitRepository extends ServiceEntityRepository
         parent::__construct($registry, Produit::class);
     }
 
+    public function findBySousRubrique(int $sousrubrique)
+    {
+        return $this->createQueryBuilder('s')
+            ->addSelect('s.id, s.libelle, s.photo,s.description,s.prix,s.prixHt')
+            ->andWhere('s.SousRubrique = :id')
+            ->setParameter('id', $sousrubrique)
+            ->getQuery()
+            ->getResult();
+    }
+
+    // public function findBypid(int $produit)
+    // {
+    //     return $this->createQueryBuilder('p')
+    //         ->addSelect('p.id, p.libelle, p.photo,p.description,p.prix,p.prixHt')
+    //         ->andWhere('p.id = :id')
+    //         ->setParameter('id', $produit)
+    //         ->getQuery()
+    //         ->getResult();
+    // }
+
 //    /**
 //     * @return Produit[] Returns an array of Produit objects
 //     */
@@ -45,4 +65,14 @@ class ProduitRepository extends ServiceEntityRepository
 //            ->getOneOrNullResult()
 //        ;
 //    }
+
+public function findOneByid(int $produit)
+    {
+        return $this->createQueryBuilder('p')
+            ->andWhere('p.id = :id')
+            ->setParameter('id', $produit)
+            ->getQuery()
+            ->getOneOrNullResult();
+    }
 }
+

@@ -9,5 +9,18 @@
 </style>
 
  <p>Details de la SousCategorie.Liste des produits</p>
+{% for produit in produits %}
+    <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
 
+			<a href="{{ path('app_detail', { produit: produit.id }) }}">
+				<div class="card" style="">
+					<img src="{{ asset('/assets/image/') ~ produit.photo}} " class="card-img-top"/>
+
+					<div class="card-body" style="width: 500px">
+						<h5 class="card-title">{{produit.libelle}}, {{produit.description}},{{produit.prix}}</h5>
+					</div>
+				</div>
+			</a>
+		</div>
+	{% endfor %}
 {% endblock %}
