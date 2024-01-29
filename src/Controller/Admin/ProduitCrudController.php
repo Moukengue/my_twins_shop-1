@@ -5,6 +5,7 @@ namespace App\Controller\Admin;
 use App\Entity\Produit;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextEditorField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
@@ -33,6 +34,7 @@ class ProduitCrudController extends AbstractCrudController
             TextField::new('photo'),
             TextField::new('prix'),
             TextField::new('prixHt'),
+            AssociationField::new('SousRubrique')
            
             
         ];
