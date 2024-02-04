@@ -3,6 +3,7 @@
 namespace App\Form;
 
 use App\Entity\Utilisateur;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;
@@ -43,6 +44,20 @@ class RegistrationFormType extends AbstractType
                     ]),
                 ],
             ])
+            ->add('nom', TextType::class, [
+                'label' => 'Nom',
+                'label_attr' => [
+                    'class' => 'col-auto col-form-label col-form-label-sm',
+                ],
+                'attr' => [
+                    'placeholder' => 'Nom',
+                    'class' => 'form-control form-control-sm',
+                ],
+                'constraints' => [
+                    new NotBlank(['message' => 'Veuillez remplir ce champ']),
+                ]
+            ])
+            ->add('prenom')
         ;
     }
 
