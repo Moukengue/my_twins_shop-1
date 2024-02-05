@@ -17,7 +17,9 @@ class ContactType extends AbstractType
     {
         $builder
         
-            ->add("email", EmailType::class)
+        ->add("email", EmailType::class, [
+                'attr' => ['class' => 'form-control short-input'], // Utilisez une classe personnalisée
+            ])
             //On a rajouté un label et on a rendu le champ optionnel en
             // donnant la valeur false à l'attribut required
             ->add(
@@ -25,8 +27,8 @@ class ContactType extends AbstractType
                 TextareaType::class,
                 [
                     'label' => 'Votre message',
-                      // Une des options les plus utilisées sur les formulaires est required, qui est par défaut à "true. Si vous voulez qu'un champ ne le soit pas, il faut passer required à false
-                    'required' => false
+                    'required' => false,
+                    'attr' => ['class' => 'form-control short-input'],
                 ]
             )
             ->add('save', SubmitType::class, [

@@ -18,12 +18,86 @@ class RegistrationFormType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
-            ->add('email')
+
+        ->add('nom', TextType::class, [
+            'label' => 'Nom',
+            'label_attr' => [
+                'class' => 'col-auto col-form-label col-form-label-sm',
+            ],
+            'attr' => [
+                'placeholder' => 'Nom',
+                'class' => 'form-control form-control-sm',
+            ],
+            'constraints' => [
+                new NotBlank(['message' => 'Veuillez remplir ce champ']),
+            ]
+        ])
+            ->add('prenom',TextType::class, [
+                'label' => 'Prenom',
+                'label_attr' => [
+                    'class' => 'col-auto col-form-label col-form-label-sm',
+                ],
+                'attr' => [
+                    'placeholder' => 'Prenom',
+                    'class' => 'form-control form-control-sm',
+                ],
+                'constraints' => [
+                    new NotBlank(['message' => 'Veuillez remplir ce champ']),
+                ]
+            ])
+            ->add('fone',TextType::class, [
+                'label' => 'Telephone',
+                'label_attr' => [
+                'class' => 'col-auto col-form-label col-form-label-sm',
+                ],
+                'attr' => [
+                    'placeholder' => 'Telephone',
+                    'class' => 'form-control form-control-sm',
+                ],
+            ])
+            
+            ->add('adresse_facturation',TextType::class, [
+                'label' => 'adresse_facturation',
+                'label_attr' => [
+                'class' => 'col-auto col-form-label col-form-label-sm',
+                ],
+                'attr' => [
+                    'placeholder' => 'adresse_facturation',
+                    'class' => 'form-control form-control-sm',
+                ],
+            ])
+            ->add('adresse_livraison',TextType::class, [
+                'label' => 'adresse_livraison',
+                'label_attr' => [
+                'class' => 'col-auto col-form-label col-form-label-sm',
+                ],
+                'attr' => [
+                    'placeholder' => 'adresse_livraison',
+                    'class' => 'form-control form-control-sm',
+                ],
+            ])
+            ->add('ville',TextType::class, [
+                'attr' => ['class' => 'form-control'],
+            ])
+            ->add('cp',TextType::class, [
+                'attr' => ['class' => 'form-control'],
+            ])
+            ->add('email',TextType::class, [
+                'label' => 'email',
+                'label_attr' => [
+                'class' => 'col-sm-2 col-form-label',
+                ],
+                'attr' => [
+                    'placeholder' => 'admin24@gmail.com',
+                    'class' => 'form-control form-control-sm',
+                ],
+            ])
+            
             ->add('agreeTerms', CheckboxType::class, [
                                 'mapped' => false,
                 'constraints' => [
                     new IsTrue([
-                        'message' => 'You should agree to our terms.',
+                        'message' => 'Je souhaite recevoir les offres',
                     ]),
                 ],
             ])
@@ -34,7 +108,7 @@ class RegistrationFormType extends AbstractType
                 'attr' => ['autocomplete' => 'new-password'],
                 'constraints' => [
                     new NotBlank([
-                        'message' => 'Please enter a password',
+                        'message' => 'Veuillez entrer un mot de passe',
                     ]),
                     new Length([
                         'min' => 6,
@@ -44,20 +118,8 @@ class RegistrationFormType extends AbstractType
                     ]),
                 ],
             ])
-            ->add('nom', TextType::class, [
-                'label' => 'Nom',
-                'label_attr' => [
-                    'class' => 'col-auto col-form-label col-form-label-sm',
-                ],
-                'attr' => [
-                    'placeholder' => 'Nom',
-                    'class' => 'form-control form-control-sm',
-                ],
-                'constraints' => [
-                    new NotBlank(['message' => 'Veuillez remplir ce champ']),
-                ]
-            ])
-            ->add('prenom')
+           
+           
         ;
     }
 

@@ -1,25 +1,33 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Register{% endblock %}
+{% block title %}Register
+{% endblock %}
 
 {% block body %}
-    {% for flash_error in app.flashes('verify_email_error') %}
-        <div class="alert alert-danger" role="alert">{{ flash_error }}</div>
-    {% endfor %}
+	{% for flash_error in app.flashes('verify_email_error') %}
+		<div class="alert alert-danger" role="alert">{{ flash_error }}</div>
+	{% endfor %}
 
-    <h4>Création de compte</h4>
-<div>
-    {{ form_errors(registrationForm) }}
+	<h4>Création de compte</h4>
+	<div>
+		{{ form_errors(registrationForm) }}
 
-    {{ form_start(registrationForm) }}
-        {{ form_row(registrationForm.email) }}
-        {{ form_row(registrationForm.plainPassword) }}
-        {{ form_row(registrationForm.nom) }}
-        {{ form_row(registrationForm.prenom) }}
-        {{ form_row(registrationForm.agreeTerms) }}
+		{{ form_start(registrationForm) }}
+		{{ form_row(registrationForm.nom) }}
+		{{ form_row(registrationForm.prenom) }}
+        {{ form_row(registrationForm.fone) }}
+		{{ form_row(registrationForm.adresse_facturation) }}
+        {{ form_row(registrationForm.adresse_livraison) }}
+		{{ form_row(registrationForm.ville) }}
+		{{ form_row(registrationForm.cp) }}
+		{{ form_row(registrationForm.email) }}
+		{{ form_row(registrationForm.plainPassword) }}
 
-        <button type="submit" class="btn">Register</button>
-    {{ form_end(registrationForm) }}
-     </div>
-   
+
+		{{ form_row(registrationForm.agreeTerms) }}
+
+		<button type="submit" class="btn btn-primary mb-2">Créer mon compte</button>
+		{{ form_end(registrationForm) }}
+	</div>
+
 {% endblock %}
