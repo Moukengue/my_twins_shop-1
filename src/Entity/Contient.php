@@ -25,7 +25,7 @@ class Contient
     #[ORM\ManyToOne(inversedBy: 'contient')]
     private ?Produit $produit = null;
 
-    #[ORM\ManyToOne(inversedBy: 'contient')]
+    #[ORM\ManyToOne(inversedBy: 'livraison')]
     private ?Livraison $livraison = null;
 
     public function getId(): ?int

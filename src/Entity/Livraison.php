@@ -21,7 +21,7 @@ class Livraison
     #[ORM\Column(length: 50)]
     private ?string $adresse = null;
 
-    #[ORM\OneToMany(mappedBy: 'livraison', targetEntity: contient::class)]
+    #[ORM\OneToMany(mappedBy: 'livraison', targetEntity: Contient::class)]
     private Collection $contient;
 
     #[ORM\ManyToOne(inversedBy: 'livraisons')]
