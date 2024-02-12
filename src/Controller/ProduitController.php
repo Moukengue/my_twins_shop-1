@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controller;
+use App\Services\cart;
 use App\Entity\Produit;
 use App\Repository\ProduitRepository;
 use App\Entity\SousRubrique;
@@ -31,6 +32,16 @@ class ProduitController extends AbstractController
             'produit' =>$detailpro
           ]);
     }
+//panier
+    //public function panier(Panier $service_panier): Response
+    //{
+
+       // return $this->render(
+        //    'catalogue/panier_quantite.html.twig',
+        //        ['quantite' => $service_panier->quantite()]
+        //);
+   // }
 }
+
 
 
