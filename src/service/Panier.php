@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Services;
+namespace App\service;
 
 use App\Entity\Produit;
 use Symfony\Component\HttpFoundation\RequestStack;
 
-class cart {
+class Panier {
 
     private $session;
 
@@ -15,39 +15,39 @@ class cart {
 
     public function add(Produit $produit) {
 
-        $cart = $this->session->get("cart", []);
-        // dd($cart);
+        $panier = $this->session->get("panier", []);
+        dd($panier);
 
         $trouve = -1;
-        foreach($cart as $i => $c) {
-            if( $c["produit"]->getId() == $produit->getId()) {
+        foreach($panier as $i => $p) {
+            if( $p["produit"]->getId() == $produit->getId()) {
                 $trouve = $i;
             }
         }
 
         if ($trouve==-1) {
-            $cart [] = [
+            $panier[] = [
                 'produit' => $produit,
                 'quantite' => 1
             ];
         }
         else {
-            $cart [$trouve]["quantite"]++;
+            $panier[$trouve]["quantite"]++;
         }
 
 
 
-        $this->session->set("cart", $cart );
+        $this->session->set("panier", $panier);
 
-        return $cart ;
+        return $panier;
     }
 
     public function quantite() {
 
-        $cart  = $this->session->get("cart", []);
+        $panier = $this->session->get("panier", []);
 
         $quantite = 0;
-        foreach($cart as $item) {
+        foreach($panier as $item) {
             $quantite += $item["quantite"];
         }
 

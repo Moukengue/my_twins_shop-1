@@ -6,3 +6,26 @@
     resize: vertical;
   
 }
+/*Contact*/
+.form_contact {
+    background-color: darkgoldenrod;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+/*css page new produit et Rubrique*/
+.new{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://images.pexels.com/photos/3789885/pexels-photo-3789885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;}

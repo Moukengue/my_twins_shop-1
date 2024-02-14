@@ -1,11 +1,17 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}The-Twins-Shop_Contact{% endblock %}
+{% block title %}The-Twins-Shop_Contact
+{% endblock %}
 
 {% block body %}
-<div class="container">
+	<div class="form_contact">
+		<div class="row">
+			<h1>Contactez-nous</h1>
+			<div class="separation"></div>
+			{{ form(form) }}
 
-{{ form(form) }}
+			</div>
+		</div>
 
-</div> 
+	</div>
 {% endblock %}
