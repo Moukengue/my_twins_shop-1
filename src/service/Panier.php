@@ -16,7 +16,7 @@ class Panier {
     public function add(Produit $produit) {
 
         $panier = $this->session->get("panier", []);
-        dd($panier);
+        //dd($panier);
 
         $trouve = -1;
         foreach($panier as $i => $p) {
@@ -52,5 +52,19 @@ class Panier {
         }
 
         return $quantite;
+    }
+
+    //Remove
+
+    public function remove(Produit $produit){
+        
+        $panier = $this->session->get("panier", []);
+
+
+
+
+
+
+
     }
 }
