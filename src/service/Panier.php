@@ -5,33 +5,35 @@ namespace App\service;
 use App\Entity\Produit;
 use Symfony\Component\HttpFoundation\RequestStack;
 
-class Panier {
+class Panier
+{
 
     private $session;
 
-    public function __construct(RequestStack $requestStack) {
+    public function __construct(RequestStack $requestStack)
+    {
         $this->session = $requestStack->getSession();
     }
 
-    public function add(Produit $produit) {
+    public function add(Produit $produit)
+    {
 
         $panier = $this->session->get("panier", []);
         //dd($panier);
 
         $trouve = -1;
-        foreach($panier as $i => $p) {
-            if( $p["produit"]->getId() == $produit->getId()) {
+        foreach ($panier as $i => $p) {
+            if ($p["produit"]->getId() == $produit->getId()) {
                 $trouve = $i;
             }
         }
 
-        if ($trouve==-1) {
+        if ($trouve == -1) {
             $panier[] = [
                 'produit' => $produit,
                 'quantite' => 1
             ];
-        }
-        else {
+        } else {
             $panier[$trouve]["quantite"]++;
         }
 
@@ -42,12 +44,13 @@ class Panier {
         return $panier;
     }
 
-    public function quantite() {
+    public function quantite()
+    {
 
         $panier = $this->session->get("panier", []);
 
         $quantite = 0;
-        foreach($panier as $item) {
+        foreach ($panier as $item) {
             $quantite += $item["quantite"];
         }
 
@@ -56,15 +59,15 @@ class Panier {
 
     //Remove
 
-    public function remove(Produit $produit){
-        
-        $panier = $this->session->get("panier", []);
+    public function remove(Produit $produit)
+    {
 
-
-
-
-
-
-
+        // $panier = $this->session->get("panier", []);
+        $panier[] = [
+            'produit' => $produit,
+            'quantite' => 0
+        ];
+        $this->session->set("panier", $panier);
+        return $panier;
     }
 }
