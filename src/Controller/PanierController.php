@@ -32,13 +32,13 @@ class PanierController extends AbstractController
     }
 
 
-    /*#[Route('/remove/{produit}', name: 'app_panier_remove')]
+    #[Route('/remove/{produit}', name: 'app_panier_remove')]
     public function remove(Produit $produit, Panier $service_panier): Response
     {
         $service_panier->remove($produit);
 
         return $this->redirect("/panier");
-    }*/
+    }
 
 }
 
