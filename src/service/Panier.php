@@ -62,12 +62,49 @@ class Panier
     public function remove(Produit $produit)
     {
 
-        // $panier = $this->session->get("panier", []);
-        $panier[] = [
-            'produit' => $produit,
-            'quantite' => 0
-        ];
+        $panier = $this->session->get("panier", []);
+        //remove($panier);
+
+        $trouve = -1;
+        foreach ($panier as $i => $p) {
+            if ($p["produit"]->getId() == $produit->getId()) {
+                $trouve = $i;
+            }
+        }
+
+        if ($panier[$trouve]['quantite'] > 1) {
+
+            $panier[$trouve]["quantite"]--;
+        } else {
+            unset($panier[$trouve]);
+        }
+
+
+
         $this->session->set("panier", $panier);
+
+        return $panier;
+    }
+
+    //supprimer
+
+    public function supprimer(Produit $produit)
+    {
+
+        $panier = $this->session->get("panier", []);
+        //sup($panier);
+
+        $trouve = -1;
+        foreach ($panier as $i => $p) {
+            if ($p["produit"]->getId() == $produit->getId()) {
+                $trouve = $i;
+            }
+        }
+
+        unset($panier[$trouve]);
+
+        $this->session->set("panier", $panier);
+
         return $panier;
     }
 }

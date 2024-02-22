@@ -18,18 +18,19 @@
 					{{item.produit.prix * item.quantite}}
 				</div>
 
-<button>
+				<a href="/add/{{item.produit.id}}" class="btn btn-primary">Ajouter au panier</a>
 
-	<a href="/remove/{{item.produit.id}}" class="btn btn-primary">Supprimer au panier</a>
-	
+				<a href="/supprimer/{{item.produit.id}}" class="btn btn-primary">Supprimer au panier</a>
 
-</button>
+
+
+				<a href="/remove/{{item.produit.id}}" class="btn btn-primary"> Retirer au panier</a>
+
+
+				<a href="{{ path('app_commande') }}" class="btn btn-warning">Valider le panier</a>
 
 			</div>
-			
 
-		
-			
 
 		{% else %}
 			Votre panier est vide
