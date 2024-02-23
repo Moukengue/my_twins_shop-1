@@ -123,12 +123,12 @@ class Commande
         return $this;
     }
 
-    public function getDateReglement(): ?string
+    public function getDateReglement(): ?\DateTimeInterface
     {
         return $this->dateReglement;
     }
 
-    public function setDateReglement(string $dateReglement): static
+    public function setDateReglement(\DateTimeInterface $dateReglement): static
     {
         $this->dateReglement = $dateReglement;
 

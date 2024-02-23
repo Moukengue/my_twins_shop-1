@@ -112,12 +112,12 @@ class Facture
         return $this;
     }
 
-    public function getDateLimitePaiement(): ?string
+    public function getDateLimitePaiement(): ?\DateTimeInterface
     {
         return $this->dateLimitePaiement;
     }
 
-    public function setDateLimitePaiement(string $dateLimitePaiement): static
+    public function setDateLimitePaiement(\DateTimeInterface $dateLimitePaiement): static
     {
         $this->dateLimitePaiement = $dateLimitePaiement;
 
