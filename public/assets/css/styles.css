@@ -1,3 +1,282 @@
+/* HEADER */
+#header svg {
+    width: 32px;
+    height: 32px;
+}
+
+#header_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    background-color: #16150f;
+    padding: 0.4% 0;
+}
+
+#header_top svg {
+    color: white;
+
+}
+
+#header_a_logo {
+    position: relative;
+    right: 8%;
+}
+
+#header_top img {
+    width: 25%;
+}
+
+#header_icon_barre_recherche {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2.5%;
+}
+
+#header_btn_recherche svg {
+    width: 24px;
+    height: 24px;
+}
+
+#header_icon_panier {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+#header_icon_panier, #header_icon_user {
+    margin: 0 10px;
+}
+
+#header_barre_btn_recherche {
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#header_input_recherche {
+    padding: 0;
+    border: 0;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    padding: 0 5px 0 5px;
+}
+
+#header_btn_recherche {
+    background-color: #16150f;
+    border: 0px;
+    border-radius: 0 10px 10px 0;
+}
+
+#header_nav {
+    background-color: #ffba00;
+    padding: 30px 0;
+}
+
+#heaver_nav_ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+}
+
+.heaver_nav_li a {
+    text-decoration: none;
+    color: #16150f;
+    letter-spacing: 3px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 19px;
+}
+
+#header_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px 0;
+}
+
+#header_bottom div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header_bottom p {
+    margin: 0;
+    margin-left: 15px;
+    font-family: 'Quicksand';
+    font-weight: 400;
+}
+
+#header_bottom svg {
+    width: 28px;
+    height: 28px;
+}
+
+#header_bottom_phone {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+/* FOOTER */
+#footer {
+    background-color: #16150f;
+    padding: 20px 0;
+    font-family: 'Quicksand';
+    font-weight: 750;
+}
+
+#footer_all {
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer a, #footer p, #footer svg {
+    color: #888888;
+    text-decoration: none;
+}
+
+#footer a:hover, #footer_text_mail:hover {
+    color: rgb(228, 171, 13);
+}
+
+#footer h3 {
+    color: white;
+}
+
+#footer_slogan {
+    margin-top: 5px;
+}
+
+#footer_logo_slogan img {
+    width: 40%;
+}
+
+#footer_haut {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+#footer_logo_slogan, #footer_compte, #footer_compte, #footer_informations {
+    width: 20%;
+}
+
+#footer_plus, #footer_compte {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer_informations div {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer_informations svg {
+    margin-right: 5px;
+}
+
+#footer_adresse svg {
+    width: 60px;
+    padding-top: 5px;
+}
+
+#footer_mail svg {
+    width: 28px;
+    padding-top: 5px;
+}
+
+#footer_adresse, #footer_mail {
+    display: flex;
+    align-items: start;
+}
+
+#footer_bas {
+    border-top: 1px solid #888888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#footer_bas p {
+    margin-top: 10px;
+}
+
+#footer_reseaux {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer_reseaux div {
+    margin: 0 5px;
+}
+
+#footer_facebook svg:hover {
+    color: #3b5998 !important;
+}
+
+#footer_pinterest svg:hover, #footer_instagram svg:hover {
+    color: #c8232c !important;
+}
+
+/* ACCUEIL */
+.publicite {
+    width: 100%;
+}
+
+.icon_ciseaux {
+    color: white;
+    border: #ffba00 1px solid;
+}
+
+#accueil_categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.accueil_categorie {
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.accueil_categorie a {
+    text-decoration: none;
+}
+
+.accueil_categorie h4 {
+    color: #16150f;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.accueil_categorie img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 .short-input {
     width: 100%;
     padding: 12px;

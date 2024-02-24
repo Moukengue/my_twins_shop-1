@@ -1,52 +1,26 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}
-	Accueil The Twins Shop
-{% endblock %}
+{% block title %}Accueil{% endblock %}
 
 {% block body %}
-
-<style>/* .example-wrapper {
-			margin: 1em auto;
-			max-width: 800px;
-			width: 95%;
-			font: 18px / 1.5 sans-serif;
-		}
-		.example-wrapper code {
-			background: #F5F5F5;
-			padding: 2px 6px;
-		} */
-/* img {
-			margin: 1px;
-			height: auto;
-			width: 35%;
-			padding: 1px; 
-
-		 } */</style>
-		 <div class="col-12">
-		 <h1>Accueil</h1>
-		 </div>
-
-
-{% for rubrique in rubriques %}
-
-  <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
-            {# <a href="/categorie/{{categorie.id}}"> #}
-            <a href="{{ path('app_sous_rubrique', { rubrique: rubrique.id}) }}">
-                <div class="card" style="">
-				<img src="{{ asset('/assets/image/') ~ rubrique.image }} " class="card-img-top"/>
-                    {# <img src="{{rubrique.image}}" class="card-img-top" alt="..."> #}
-                    <div class="card-body" style= "width: 500px">
-                        <h5 class="card-title">{{rubrique.nom}}</h5>
-                    </div>
-                </div>            
-            </a>
-        </div>
-	{# {{ rubrique.nom }}
-	<img src="{{ asset('/assets/image/')~rubrique.image }}" alt="">
-	<div class="card-body" style="width: 500px">
-		<a href="{{ path('app_rubrique',{'id':rubrique.id}) }}" id="btn-style" class="btn">Detail</a>
-	</div> #}
-
-
-{% endfor %}{% endblock %}
+	<img class="publicite" src="{{ asset('/assets/image/pub.webp')}}" alt="publicité">
+	
+	<div id="top_categories">
+		<h2>Top Categories</h2>
+		<div>
+			<svg class="icon_ciseaux" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+				<path d="M256 192l-39.5-39.5c4.9-12.6 7.5-26.2 7.5-40.5C224 50.1 173.9 0 112 0S0 50.1 0 112s50.1 112 112 112c14.3 0 27.9-2.7 40.5-7.5L192 256l-39.5 39.5c-12.6-4.9-26.2-7.5-40.5-7.5C50.1 288 0 338.1 0 400s50.1 112 112 112s112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6c-28.3-28.3-74.1-28.3-102.4 0L256 192zm22.6 150.6L396.8 460.8c28.3 28.3 74.1 28.3 102.4 0c7.1-7.1 7.1-18.5 0-25.6L342.6 278.6l-64 64zM64 112a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+			</svg>
+		</div>
+		<div id="accueil_categories">
+			{% for rubrique in rubriques %}
+				<div class="accueil_categorie">
+					<a href="{{ path('app_sous_rubrique', { rubrique: rubrique.id}) }}">
+						<img src="{{ asset('/assets/image/') ~ rubrique.image }}"/>
+						<h4 class="">{{rubrique.nom|u.truncate(20, '..')}}</h4>
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+{% endblock %}

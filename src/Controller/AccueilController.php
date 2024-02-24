@@ -15,7 +15,9 @@ class AccueilController extends AbstractController
     #[Route('/', name: 'app_accueil')]
     public function index(RubriqueRepository $rubriqueRepo): Response
     {
-        $rubriques=$rubriqueRepo->FindAll();
+        // Récupération de 6 rubriques
+        $rubriques = $rubriqueRepo->findBy(array(), null, 6, null);
+
         return $this->render('accueil/index.html.twig',[
             "rubriques"=>$rubriques,
         ]
