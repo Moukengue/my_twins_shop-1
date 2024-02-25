@@ -5,12 +5,14 @@
 {% block body %}
 	<img class="publicite" src="{{ asset('/assets/image/pub.webp')}}" alt="publicité">
 	
-	<div id="top_categories">
+	<div id="accueil_top_categories">
 		<h2>Top Categories</h2>
-		<div>
-			<svg class="icon_ciseaux" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-				<path d="M256 192l-39.5-39.5c4.9-12.6 7.5-26.2 7.5-40.5C224 50.1 173.9 0 112 0S0 50.1 0 112s50.1 112 112 112c14.3 0 27.9-2.7 40.5-7.5L192 256l-39.5 39.5c-12.6-4.9-26.2-7.5-40.5-7.5C50.1 288 0 338.1 0 400s50.1 112 112 112s112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6c-28.3-28.3-74.1-28.3-102.4 0L256 192zm22.6 150.6L396.8 460.8c28.3 28.3 74.1 28.3 102.4 0c7.1-7.1 7.1-18.5 0-25.6L342.6 278.6l-64 64zM64 112a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+		<div class="icon_ciseaux">
+			<hr>
+			<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-scissors" viewBox="0 0 16 16">
+				<path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
 			</svg>
+			<hr>
 		</div>
 		<div id="accueil_categories">
 			{% for rubrique in rubriques %}
@@ -23,4 +25,93 @@
 			{% endfor %}
 		</div>
 	</div>
+
+	<div id="accueil_offre_mois_all">
+		<h2>Offre Du Mois</h2>
+		<div class="icon_ciseaux">
+			<hr>
+			<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-scissors" viewBox="0 0 16 16">
+				<path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+			</svg>
+			<hr>
+		</div>
+		<div id="accueil_offre_mois">
+			<div>
+				<div id="accueil_offre_mois_gauche">
+					<a href="#">
+						<img class="publicite" src="{{ asset('/assets/image/offre_mois_1.webp')}}" alt="image offre du mois">
+					</a>
+				</div>
+				<div id="accueil_offre_mois_droite">
+					<h4>1 FAUX CILS 3D OFFERT</h4>
+					<p>Profitez de cette offre exceptionnelle.  Un produit surprise Faux cils 3D offert à partir de 79€ d'achats sur le site</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="accueil_info_fond">
+		<div id="accueil_info">
+			<div id="accueil_info_paiement">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-fill" viewBox="0 0 16 16">
+					<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1"/>
+				</svg>
+				<div>
+					<h5>Paiement En 3 Fois Sans Frais</h5>
+					<p>Choisissez "Paiement En 3 Fois Alma". La Commande Est Expédiées Le Jour Même Et Vous Serez Prélevé De 1/3 Chaque Mois Pendant 3 Mois</p>
+				</div>
+			</div>
+			<div id="accueil_info_retour">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+					<path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+				</svg>
+				<div>
+					<h5>Satisfait Ou Remboursé</h5>
+					<p>Votre Satisfaction Est Notre Priorité. Nous Reprenons Tous Les Articles Intacts Dans Un Délai De 14 Jours. Plus De Questions ? Contactez le Service Client: 01 52 41 48 56</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="accueil_top_produit">
+		<h2>Produits Tendances</h2>
+		<div class="icon_ciseaux">
+			<hr>
+			<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-scissors" viewBox="0 0 16 16">
+				<path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+			</svg>
+			<hr>
+		</div>
+		<div id="accueil_produits">
+			{% for produit in produits %}
+				<div class="accueil_produit">
+					<a href="{{ path('app_produit_detail', { produit: produit.id }) }}">
+						<div>
+							<img src="{{ asset('/assets/image/') ~ produit.photo }}" alt="photo produit">
+						</div>
+						<div>
+							<p class="accueil_produit_lib">{{ produit.libelle }}</p>
+							<p class="accueil_produit_prix">{{ produit.prix }} €</p>
+						</div>
+						<div>
+							<button>Détails</button>
+						</div>
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	<div id="publicite_instagram_all">
+		<div id="publicite_instagram">
+			<h3>@the_twins_shop</h3>
+			<p>Exprime ta personnalité à travers ton look et partage-le en identifiant @the_twins_shop et #the_twins_shop sur instagram.</p>
+			<p>Plein de nouveautés à découvrir chaque mois et des offres exclusives pour nos followers</p>
+			<div>
+				<a href="#">SUIVEZ-NOUS</a>
+			</div>
+		</div>
+	</div>
+
+	
 {% endblock %}

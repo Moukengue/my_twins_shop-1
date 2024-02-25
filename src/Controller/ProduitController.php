@@ -14,12 +14,14 @@ class ProduitController extends AbstractController
 {
     //Tout les produits
     #[Route('/produit', name: 'app_produit')]
-    public function produitAll($sousrubrique, ProduitRepository $produitRepo): Response
+    public function produitAll(ProduitRepository $produitRepo): Response
     {
         $produits = $produitRepo->findAll();
+        $nouveauxProduits = $produitRepo->findBy(array(), ['id' => 'DESC'], 5, null);
         // dd($produits);
         return $this->render('produit/produitAll.html.twig', [
-            'produits' =>$produits
+            'produits' =>$produits,
+            "nouveauxProduits" => $nouveauxProduits,
           ]);
     }
 

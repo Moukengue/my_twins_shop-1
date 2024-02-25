@@ -3,22 +3,57 @@
 {% block title %} Rubrique{% endblock %}
 
 {% block body %}
-<h1>Détail de la rubrique et la liste des sous-rubrique</h1>
-<h2></h2>
+    <div id="fond_titre">
+        <h1>Liste des différentes rubriques disponnibles</h1>
+    </div>
 
-{% for rub in rubriques%}
-
-  <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
-            {# <a href="/categorie/{{categorie.id}}"> #}
-            <a href="{{ path('app_sous_rubrique', { rubrique: rub.id}) }}">
-                <div class="card" style="">
-				<img src="{{ asset('/assets/image/') ~ rub.image }} " class="card-img-top"/>
-                    {# <img src="{{rubrique.image}}" class="card-img-top" alt="..."> #}
-                    <div class="card-body" style= "width: 500px">
-                        <h5 class="card-title">{{rub.nom}}</h5>
+    <div id="page_rubrique_all">
+        <div id="page_rubrique">
+            <div id="nvx_produits">
+                <h5>Nouveaux Produits</h5>
+                <div id="gap">
+                    {% for nouveauProduit in nouveauxProduits %}
+                        <div class="nvx_produit">
+                            <a href="{{ path('app_produit_detail', { produit: nouveauProduit.id }) }}">
+                                <div>
+                                    <div>
+                                        <img src="{{ asset('/assets/image/') ~ nouveauProduit.photo }}" alt="photo produit">
+                                    </div>
+                                    <div>
+                                        <p class="nvx_produit_lib">{{ nouveauProduit.libelle }}</p>
+                                        <p class="nvx_produit_prix">{{ nouveauProduit.prix }} €</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id="rubriques">
+                {% for rubrique in rubriques %}
+                    <div class="rubrique">
+                        <a href="{{ path('app_sous_rubrique', { rubrique: rubrique.id}) }}">
+                            <div>
+                                <img src="{{ asset('/assets/image/') ~ rubrique.image }}"/>
+                                <div>
+                                    <h5>{{ rubrique.nom|u.truncate(25, '..') }}</h5>
+                                </div>
+                            </div>            
+                        </a>
                     </div>
-                </div>            
-            </a>
+                {% endfor %}
+            </div>
         </div>
-        {% endfor %}
+    </div>
+
+    <div id="publicite_instagram_all">
+		<div id="publicite_instagram">
+			<h3>@the_twins_shop</h3>
+			<p>Exprime ta personnalité à travers ton look et partage-le en identifiant @the_twins_shop et #the_twins_shop sur instagram.</p>
+			<p>Plein de nouveautés à découvrir chaque mois et des offres exclusives pour nos followers</p>
+			<div>
+				<a href="#">SUIVEZ-NOUS</a>
+			</div>
+		</div>
+	</div>
 {% endblock %}
