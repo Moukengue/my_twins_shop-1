@@ -4,38 +4,95 @@
 {% endblock %}
 
 {% block body %}
-	<h1>Panier</h1>
+	<div id="fond_titre">
+        <h1>Panier</h1>
+    </div>
 
-	<div class="col-12">
+	{% set totalPanier = 0 %}
+	{% set totalHtPanier = 0 %}
+	{% set totalTVA = 0 %}
 
-		{% for item in panier %}
-			<div class="col-12">
-				<h3>{{item.produit.libelle}}</h3>
-				{{item.produit.description}}
-				<div>Quantité :
-					{{item.quantite}}</div>
-				<div>
-					{{item.produit.prix * item.quantite}}
-				</div>
+	<div id="page_panier">
+		<div id="panier_all">
+			<div id="panier_gauche">
+				{% for item in panier %}
+					{% set totalArticle = item.produit.prix * item.quantite %}
+					{% set totalPanier = totalPanier + totalArticle %}
 
-				<a href="/add/{{item.produit.id}}" class="btn btn-primary">Ajouter au panier</a>
+					{% set totalHtArticle = item.produit.prixHt * item.quantite %}
+					{% set totalHtPanier = totalHtPanier + totalHtArticle %}
 
-				<a href="/supprimer/{{item.produit.id}}" class="btn btn-primary">Supprimer au panier</a>
+					{% set totalTVA = totalPanier - totalHtPanier %}
 
-
-
-				<a href="/remove/{{item.produit.id}}" class="btn btn-primary"> Retirer au panier</a>
-
-
-				<a href="{{ path('app_commande') }}" class="btn btn-warning">Valider le panier</a>
-
+					<div class="panier_contenue">
+						<div class="panier_img_lib">
+							<div class="panier_img">
+								<img src="{{ asset('/assets/image/') ~ item.produit.photo }}" alt="photo produit">
+							</div>
+							<div class="panier_lib">
+								<h3>{{ item.produit.libelle }}</h3>
+								<p>{{ item.produit.prix }} €</p>
+							</div>
+						</div>
+						<div class="panier_qte_btn_prix_icon">
+							<div class="panier_qte_btn">
+								<div class="panier_qte">
+									<p>{{ item.quantite }}</p>
+								</div>
+								<div class="panier_btn">
+									<a href="/add/{{ item.produit.id }}">+</a>
+									<a href="/supprimer/{{ item.produit.id }}">-</a>
+								</div>
+							</div>
+							<div class="panier_total_produit">
+								<p>{{ item.produit.prix * item.quantite }} €</p>
+							</div>
+							<div class="panier_icon_trash">
+								<a href="/remove/{{item.produit.id}}">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-trash3-fill" viewbox="0 0 16 16">
+										<path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+			
+				{% else %}
+					Votre panier est vide
+				{% endfor %}
 			</div>
 
-
-		{% else %}
-			Votre panier est vide
-		{% endfor %}
+			<div id="panier_droite">
+				<div id="panier_prix_total_all">
+					<div>
+						<p>Total HT</p>
+						<p>{{ totalHtPanier }} €HT</p>
+					</div>
+					<div>
+						<p>Total TTC</p>
+						<p>{{ totalPanier }} €</p>
+					</div>
+					<div>
+						<p>TVA</p>
+						<p>{{ totalTVA }} €</p>
+					</div>
+				</div>
+				<div id="panier_btn_valide">
+					<a href="{{ path('app_commande') }}">Valider le panier</a>
+				</div>
+			</div>
+		</div>
 	</div>
 
+	<div id="publicite_instagram_all">
+		<div id="publicite_instagram">
+			<h3>@the_twins_shop</h3>
+			<p>Exprime ta personnalité à travers ton look et partage-le en identifiant @the_twins_shop et #the_twins_shop sur instagram.</p>
+			<p>Plein de nouveautés à découvrir chaque mois et des offres exclusives pour nos followers</p>
+			<div>
+				<a href="#">SUIVEZ-NOUS</a>
+			</div>
+		</div>
+	</div>
 
 {% endblock %}

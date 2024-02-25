@@ -4,14 +4,35 @@
 {% endblock %}
 
 {% block body %}
-	<div class="form_contact">
-		<div class="row">
-			<h1>Contactez-nous</h1>
-			<div class="separation"></div>
-			{{ form(form) }}
+	<div id="fond_titre">
+        <h1>Contactez-nous</h1>
+    </div>
 
+	<div id="page_form_contact">
+		<div id="form_contact">
+			<div class="row">
+				{{ form_label(form.email, 'Adresse e-mail') }}
+				{{ form_widget(form.email, {'attr': {'class':'formInput75 contactInput'}}) }}
+				{{ form_errors(form.email, {'attr': {'class':'formContactErrors'}}) }}
+
+				{{ form_label(form.message, 'Votre message') }}
+				{{ form_widget(form.message, {'attr': {'class':'contactMessage'}}) }}
+				{{ form_errors(form.message, {'attr': {'class':'formContactErrors'}}) }}
+			</div>
+			<div>
+				{{ form_row(form.save, {'attr': {'class':'form_contact_btn'}}) }}
 			</div>
 		</div>
+	</div>
 
+	<div id="publicite_instagram_all">
+		<div id="publicite_instagram">
+			<h3>@the_twins_shop</h3>
+			<p>Exprime ta personnalité à travers ton look et partage-le en identifiant @the_twins_shop et #the_twins_shop sur instagram.</p>
+			<p>Plein de nouveautés à découvrir chaque mois et des offres exclusives pour nos followers</p>
+			<div>
+				<a href="#">SUIVEZ-NOUS</a>
+			</div>
+		</div>
 	</div>
 {% endblock %}

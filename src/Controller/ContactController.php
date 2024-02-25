@@ -14,14 +14,10 @@ class ContactController extends AbstractController
     public function index(Request $request): Response
     { 
         $form = $this->createForm(ContactType::class);
-
         $form->handleRequest($request);
         $formView = $form->createView();
 
         if ($form->isSubmitted() && $form->isValid()) {
-
-            
-
             return $this->redirectToRoute("app_accueil");
         }
         

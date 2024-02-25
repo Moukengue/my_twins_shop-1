@@ -4,7 +4,6 @@ namespace App\Controller;
 
 use App\Entity\Produit;
 use App\Repository\ProduitRepository;
-use App\Entity\SousRubrique;
 use App\Repository\SousRubriqueRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -26,13 +25,17 @@ class ProduitController extends AbstractController
     }
 
     // Produit d'une sous rubrique
-    #[Route('/produit/{sousrubrique}', name: 'app_produit_sous_rubrique')]
-    public function produit($sousrubrique, ProduitRepository $produitRepo): Response
+    #[Route('/produit/sous_rubrique/{sousrubrique}', name: 'app_produit_sous_rubrique')]
+    public function produit($sousrubrique, ProduitRepository $produitRepo, SousRubriqueRepository $sousRubriqueRepo): Response
     {
         $produits = $produitRepo->findBySousRubrique($sousrubrique);
-        // dd($produits);
-        return $this->render('produit/produit.html.twig', [
-            'produits' =>$produits
+        $sousRubrique = $sousRubriqueRepo->find($sousrubrique);
+        $nouveauxProduits = $produitRepo->findBy(array(), ['id' => 'DESC'], 5, null);
+        // dd($produits, $sousrubrique, $sousRubrique);
+        return $this->render('produit/produitSousRubrique.html.twig', [
+            'produits' => $produits,
+            'sousRubrique' => $sousRubrique,
+            "nouveauxProduits" => $nouveauxProduits,
           ]);
     }
     
@@ -40,10 +43,12 @@ class ProduitController extends AbstractController
     #[Route('/produit/detail/{produit}', name: 'app_produit_detail')]
     public function detail($produit, ProduitRepository $produitRepo): Response
     {
-        $detailpro = $produitRepo->findOneByid($produit);
-        //  dd($detailpro);
-        return $this->render('produit/produitdetail.html.twig', [
-            'produit' =>$detailpro
+        $produitDetails = $produitRepo->findOneByid($produit);
+        $nouveauxProduits = $produitRepo->findBy(array(), ['id' => 'DESC'], 5, null);
+        // dd($nouveauxProduits, $produitDetails);
+        return $this->render('produit/produitDetail.html.twig', [
+            'produitDetails' => $produitDetails,
+            'nouveauxProduits' => $nouveauxProduits,
           ]);
     }
 

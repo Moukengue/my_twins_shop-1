@@ -29,14 +29,16 @@
                     {% endfor %}
                 </div>
             </div>
-			<div>
+			<div id="produits">
 				{% for produit in produits %}
-					<div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
+					<div class="produit">
 						<a href="{{ path('app_produit_detail', { produit: produit.id }) }}">
 							<div class="">
 								<img src="{{ asset('/assets/image/') ~ produit.photo}} " class="card-img-top"/>
-								<div class="">
-									<h5 class="card-title">{{produit.libelle}}, {{produit.description}}, {{produit.prix}}</h5>
+								<div class="produit_lib_desc_prix">
+									<p class="produit_lib">{{produit.libelle}}</p>
+                                    <p class="produit_desc">{{produit.description}}</p>
+                                    <p class="produit_prix">{{produit.prix}} €</p>
 								</div>
 							</div>
 						</a>
