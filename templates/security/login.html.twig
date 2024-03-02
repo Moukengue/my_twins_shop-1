@@ -3,33 +3,62 @@
 {% block title %}Connexion{% endblock %}
 
 {% block body %}
-<form method="post">
-    {% if error %}
-        <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
-    {% endif %}
+    <div id="fond_titre">
+        <h1>Connexion</h1>
+    </div>
 
-    {% if app.user %}
-        <div class="mb-3">
-           Vous êtes connecté(e)comme {{ app.user.userIdentifier }}, <a href="{{ path('app_logout') }}">Me déconnecter</a>
+    <div id="page_connexion">
+        <div id="page_connexion_all">
+            <div id="nvx_produits">
+                <h5>Nouveaux Produits</h5>
+                <div id="gap">
+                    {% for nouveauProduit in nouveauxProduits %}
+                        <div class="nvx_produit">
+                            <a href="{{ path('app_produit_detail', { produit: nouveauProduit.id }) }}">
+                                <div>
+                                    <div>
+                                        <img src="{{ asset('/assets/image/') ~ nouveauProduit.photo }}" alt="photo produit">
+                                    </div>
+                                    <div>
+                                        <p class="nvx_produit_lib">{{ nouveauProduit.libelle }}</p>
+                                        <p class="nvx_produit_prix">{{ nouveauProduit.prix }} €</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div id="form_connexion">
+                <h2>Connectez-vous à votre compte</h2>
+                <div id="form_connexion_all">
+                    <div>
+                        <form id="formulaire" method="post">
+                            {% if error %}
+                                <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                            {% endif %}
+
+                            <div class="form_label_input">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" autocomplete="email" required autofocus>
+                            </div>
+                            
+                            <div class="form_label_input">
+                                <label for="inputPassword">Mot de passe</label>
+                                <input type="password" name="password" id="inputPassword" class="form-control" autocomplete="current-password" required>
+                            </div>
+
+                            <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+                            <button class="btn btn-lg btn-primary" type="submit">Connexion</button>
+                        </form>
+                    </div>
+
+                    <div id="form_btn_connexion_incription">
+                        <a href="{{path('app_register')}}">Pas de compte ? Créez-en un</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    {% endif %}
-
-    <h1 class="h3 mb-3 font-weight-normal">Déja client?</h1>
-    <label for="inputEmail">Email</label>
-    <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" autocomplete="email" required autofocus>
-    <label for="inputPassword">Mot de passe</label>
-    <input type="password" name="password" id="inputPassword" class="form-control" autocomplete="current-password" required>
-
-    <input type="hidden" name="_csrf_token"
-           value="{{ csrf_token('authenticate') }}"
-    >
-
-    <button class="btn btn-lg btn-primary" type="submit">
-      Me Connecter
-    </button>
-    <h4>Nouveau client?</h4>
-    <button>
-			<a href="{{path('app_register')}}" class="btn btn-success" tabindex="-1" role="button" aria-disabled="true">Créer un compte</a>
-			</button>
-</form>
+    </div>
 {% endblock %}

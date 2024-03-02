@@ -24,11 +24,11 @@ class CommandeType extends AbstractType
             ->add('adresse')
             ->add('facture', EntityType::class, [
                 'class' => Facture::class,
-'choice_label' => 'id',
+                'choice_label' => 'id',
             ])
             ->add('utilisateur', EntityType::class, [
                 'class' => Utilisateur::class,
-'choice_label' => 'id',
+                'choice_label' => 'id',
             ])
         ;
     }

@@ -54,7 +54,7 @@ class CommandeController extends AbstractController
     $commande->setDateReglement($date);
     $commande->setAdresse($utilisateur->getAdresseFacturation());
     $commande->setFacture($facture);
-    $commande->setUtilisateur($this ->getUser() );
+    $commande->setUtilisateur($this->getUser());
       
     // Livraison
     $livraison = new Livraison ();

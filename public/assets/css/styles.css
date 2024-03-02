@@ -1024,13 +1024,49 @@
 #page_form_contact {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+#page_contact_informations {
+    width: 15%;
+    border: 1px solid #9e9e9e;
+    padding: 10px;
+}
+
+#page_contact_titre_informations {
+    font-family: 'Quicksand';
+}
+
+#page_contact_informations svg {
+    width: 50px;
+    height: 50px;
+    color: #9e9e9e;
+}
+
+#page_contact_informations #icon_mail {
+    width: 20px;
+    height: 20px;
+}
+
+#page_contact_informations_adresse, #page_contact_informations_mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#page_contact_informations_adresse {
+    border-bottom: 1px solid #9e9e9e;
+    margin-bottom: 1rem;
 }
 
 #form_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 10px;
-    margin-top: 40px;
     width: 30%;
-    border: 1px solid #16150f;
+    border: 1px solid #9e9e9e;
     padding: 5px 20px 0 20px;
 }
 
@@ -1050,6 +1086,145 @@
     color: #16150f;
 }
 
+/* CONNEXION */
+#page_connexion {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#form_connexion h2 {
+    font-family: 'Quicksand';
+}
+
+#page_connexion_all {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 20px;
+}
+
+#form_connexion {
+    width: 50%;
+    text-align: center;
+}
+
+#form_connexion_all {
+    border: #cecece 1px solid;
+}
+
+#form_connexion #formulaire {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+    border-bottom: #cecece 1px solid;
+}
+
+#form_connexion #formulaire button {
+    font-family: 'Quicksand';
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #16150f;
+    color: white;
+    border: 0;
+    margin: 10px 0;
+}
+
+#form_connexion #formulaire button:hover {
+    background-color: #ffba00;
+    color: #16150f;
+}
+
+.form_label_input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-wrap: nowrap;
+    font-family: 'Quicksand';
+}
+
+.form_label_input input {
+    width: 50%;
+    margin: 5px 0;
+}
+
+#form_btn_connexion_incription {
+    margin-bottom: 10px;
+}
+
+#form_btn_connexion_incription a {
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    color: #9e9e9e;
+    margin-bottom: 10px;
+}
+
+/* INSCRIPTION */
+#inscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#inscription h2 {
+    font-family: 'Quicksand';
+}
+
+#page_inscription {
+    width: 30%;
+}
+
+#page_inscription_all {
+    border: #cecece 1px solid;
+}
+
+#page_inscription_all {
+    text-align: center;
+    padding: 10px;
+}
+
+#page_inscription_all div:nth-child(1) div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-wrap: nowrap;
+    font-family: 'Quicksand';
+    text-align: center;
+    margin: 5px 0;
+}
+
+#page_inscription_all div input {
+    width: 50%;
+    margin-left: 10px;
+}
+
+#form_btn_incription button {
+    font-family: 'Quicksand';
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #16150f;
+    color: white;
+    border: 0;
+    margin: 10px 0;
+}
+
+#form_btn_incription button:hover {
+    background-color: #ffba00;
+    color: #16150f;
+}
+
+.condition_utilisation {
+    text-wrap: wrap;
+}
+
+.case {
+    display: flex;
+
+}
 
 
 
