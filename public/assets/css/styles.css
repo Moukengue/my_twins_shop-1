@@ -1223,9 +1223,59 @@
 
 .case {
     display: flex;
-
 }
 
+/* MON COMPTE */
+#page_mon_compte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page_mon_compte_all {
+    width: 30%;
+    border: #cecece 1px solid;
+    text-align: center;
+}
+
+#mon_compte_nav {
+    width: 100%;
+}
+
+#mon_compte_nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+}
+
+#mon_compte_nav li {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #cecece;
+    color: #16150f;
+}
+
+#mon_compte_nav li:hover {
+    background-color: #a8a8a8;
+}
+
+#mon_compte_nav li a {
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    color: #16150f;
+}
+
+#mon_compte_nav #actif {
+    background-color: #b9b9b9;
+}
+
+#mes_informations .label_input {
+    display: flex;
+    flex-direction: column;
+}
 
 
 

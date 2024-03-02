@@ -1,0 +1,85 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon Compte{% endblock %}
+
+{% block body %}
+	<div id="fond_titre">
+        <h1>Mon compte</h1>
+    </div>
+
+    <div id="page_mon_compte">
+        <div id="page_mon_compte_all">
+            <div id="mon_compte_nav">
+                <ul>
+                    <li id="actif"><a href="{{ path('app_mon_compte') }}">Mes Informations</a></li>
+                    <li><a href="{{ path('app_mon_compte_commande') }}">Commandes</a></li>
+                    <li id="deconnexion"><a href="{{ path('app_logout') }}">Deconnexion</a></li>
+                </ul>
+            </div>
+
+            <div id="mes_informations">
+                <h2>Mes Informations</h2>
+                <div>
+                    <div class="label_input">
+                        <label>Nom</label>
+                        <input type="text" value="{{ utilisateurInfo.nom }}" disabled>
+                    </div>
+                    <div class="label_input">
+                        <label>Prenom</label>
+                        <input type="text" value="{{ utilisateurInfo.prenom }}" disabled>
+                    </div>
+                </div>
+                <div>
+                    <div class="label_input">
+                        <label>E-mail</label>
+                        <input type="text" value="{{ utilisateurInfo.email }}" disabled>
+                    </div>
+                    <div class="label_input">
+                        <label>Telephone</label>
+                        <input type="text" value="{{ utilisateurInfo.fone }}" disabled>
+                    </div>
+                </div>
+                <div>
+                    <div class="label_input">
+                        <label>Ville</label>
+                        <input type="text" value="{{ utilisateurInfo.ville }}" disabled>
+                    </div>
+                    <div class="label_input">
+                        <label>Code Postale</label>
+                        <input type="text" value="{{ utilisateurInfo.cp }}" disabled>
+                    </div>
+                </div>
+                <div>
+                    <div class="label_input">
+                        <label>Adresse de Facturation</label>
+                        <input type="text" value="{{ utilisateurInfo.adresseFacturation }}" disabled>
+                    </div>
+                    <div class="label_input">
+                        <label>Adresse de Livraison</label>
+                        <input type="text" value="{{ utilisateurInfo.adresseFacturation }}" disabled>
+                    </div>
+                </div>
+                <div>
+                    <div class="label_input">
+                        <label>Référence</label>
+                        <input type="text" value="{{ utilisateurInfo.ref }}" disabled>
+                    </div>
+                    <div class="label_input">
+                        <label>Type</label>
+                        <input type="text" value="{{ utilisateurInfo.type }}" disabled>
+                    </div>
+                    <div class="label_input">
+                        <label>Corfficient</label>
+                        <input type="text" value="{{ utilisateurInfo.coef }}" disabled>
+                    </div>
+                </div>
+                <div>
+                    <div class="label_input">
+                        <label>N° de Siret</label>
+                        <input type="text" value="{{ utilisateurInfo.siret }}" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
