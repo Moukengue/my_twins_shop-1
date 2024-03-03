@@ -4,10 +4,43 @@
 
 {% block body %}
 	<div id="fond_titre">
-        <h1>Mon compte</h1>
+        <h1>Mes commandes</h1>
     </div>
 
-    <div>
-        
+    <div id="page_mon_compte">
+        <div id="page_mon_compte_all">
+            <div id="mon_compte_nav">
+                <ul>
+                    <li><a href="{{ path('app_mon_compte') }}">Mes Informations</a></li>
+                    <li id="actif"><a href="{{ path('app_mon_compte_commande') }}">Commandes</a></li>
+                    <li><a href="{{ path('app_logout') }}">Deconnexion</a></li>
+                </ul>
+            </div>
+
+            <div id="mes_commandes">
+                <h2>Mes Commandes</h2>
+                <div id="mes_commandes_all">
+                    <table>
+                        <thead>
+                            <th>Numero</th>
+                            <th>Date</th>
+                            <th>Reduction</th>
+                            <th>Total</th>
+                        </thead>
+                        <tbody>
+                            {% for commande in commandes %}
+                                <tr>
+                                    <td>{{ commande.numero }}</td>
+                                    <td>{{ commande.date }}</td>
+                                    <td>{{ commande.reduction }}</td>
+                                    <td>{{ commande.prixTotal }} €</td>
+                                    <td><a href="/mon_compte/commande/{{ commande.id }}">Voir plus</a></td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}

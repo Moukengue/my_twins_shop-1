@@ -1230,6 +1230,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 #page_mon_compte_all {
@@ -1272,9 +1274,67 @@
     background-color: #b9b9b9;
 }
 
-#mes_informations .label_input {
+#mes_informations {
+    font-family: 'Quicksand';
+    padding-bottom: 20px;
+}
+
+#mes_informations_all {
+    text-align: start !important;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+#mes_informations_all #nom_prenom, #mes_informations_all #email_tel,
+#mes_informations_all #ville_cp, #mes_informations_all #adresses, 
+#mes_informations_all #ref_type, #mes_informations_all #coef_siret {
+    display: flex;
+    flex-direction: row;
+}
+
+#mes_informations_all .label_input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+#mes_commandes {
+    font-family: 'Quicksand';
+    padding-bottom: 20px;
+}
+
+#mes_commandes_all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mes_commandes_all table {
+    border-collapse: collapse;
+    border: 1px solid rgb(140 140 140);
+    width: 100%;
+}
+
+#mes_commandes_all td, #mes_commandes_all th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#mes_commandes_all tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#mes_commandes_all tr:hover {
+    background-color: #ddd;
+}
+
+#mes_commandes_all th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ddd;
+  color: #16150f;
 }
 
 

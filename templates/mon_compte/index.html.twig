@@ -19,64 +19,66 @@
 
             <div id="mes_informations">
                 <h2>Mes Informations</h2>
-                <div>
-                    <div class="label_input">
-                        <label>Nom</label>
-                        <input type="text" value="{{ utilisateurInfo.nom }}" disabled>
+                <div id="mes_informations_all">
+                    <div id="nom_prenom">
+                        <div class="label_input">
+                            <label>Nom</label>
+                            <input type="text" value="{{ utilisateurInfo.nom }}" disabled>
+                        </div>
+                        <div class="label_input">
+                            <label>Prenom</label>
+                            <input type="text" value="{{ utilisateurInfo.prenom }}" disabled>
+                        </div>
                     </div>
-                    <div class="label_input">
-                        <label>Prenom</label>
-                        <input type="text" value="{{ utilisateurInfo.prenom }}" disabled>
+                    <div id="email_tel">
+                        <div class="label_input">
+                            <label>E-mail</label>
+                            <input type="text" value="{{ utilisateurInfo.email }}" disabled>
+                        </div>
+                        <div class="label_input">
+                            <label>Telephone</label>
+                            <input type="text" value="{{ utilisateurInfo.fone }}" disabled>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="label_input">
-                        <label>E-mail</label>
-                        <input type="text" value="{{ utilisateurInfo.email }}" disabled>
+                    <div id="ville_cp">
+                        <div class="label_input">
+                            <label>Ville</label>
+                            <input type="text" value="{{ utilisateurInfo.ville }}" disabled>
+                        </div>
+                        <div class="label_input">
+                            <label>Code Postale</label>
+                            <input type="text" value="{{ utilisateurInfo.cp }}" disabled>
+                        </div>
                     </div>
-                    <div class="label_input">
-                        <label>Telephone</label>
-                        <input type="text" value="{{ utilisateurInfo.fone }}" disabled>
+                    <div id="adresses">
+                        <div class="label_input">
+                            <label>Adresse de Facturation</label>
+                            <input type="text" value="{{ utilisateurInfo.adresseFacturation }}" disabled>
+                        </div>
+                        <div class="label_input">
+                            <label>Adresse de Livraison</label>
+                            <input type="text" value="{{ utilisateurInfo.adresseFacturation }}" disabled>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="label_input">
-                        <label>Ville</label>
-                        <input type="text" value="{{ utilisateurInfo.ville }}" disabled>
+                    <div id="ref_type">
+                        <div class="label_input">
+                            <label>Référence</label>
+                            <input type="text" value="{{ utilisateurInfo.ref }}" disabled>
+                        </div>
+                        <div class="label_input">
+                            <label>Type</label>
+                            <input type="text" value="{{ utilisateurInfo.type }}" disabled>
+                        </div>
                     </div>
-                    <div class="label_input">
-                        <label>Code Postale</label>
-                        <input type="text" value="{{ utilisateurInfo.cp }}" disabled>
-                    </div>
-                </div>
-                <div>
-                    <div class="label_input">
-                        <label>Adresse de Facturation</label>
-                        <input type="text" value="{{ utilisateurInfo.adresseFacturation }}" disabled>
-                    </div>
-                    <div class="label_input">
-                        <label>Adresse de Livraison</label>
-                        <input type="text" value="{{ utilisateurInfo.adresseFacturation }}" disabled>
-                    </div>
-                </div>
-                <div>
-                    <div class="label_input">
-                        <label>Référence</label>
-                        <input type="text" value="{{ utilisateurInfo.ref }}" disabled>
-                    </div>
-                    <div class="label_input">
-                        <label>Type</label>
-                        <input type="text" value="{{ utilisateurInfo.type }}" disabled>
-                    </div>
-                    <div class="label_input">
-                        <label>Corfficient</label>
-                        <input type="text" value="{{ utilisateurInfo.coef }}" disabled>
-                    </div>
-                </div>
-                <div>
-                    <div class="label_input">
-                        <label>N° de Siret</label>
-                        <input type="text" value="{{ utilisateurInfo.siret }}" disabled>
+                    <div id="coef_siret">
+                        <div class="label_input">
+                            <label>Corfficient</label>
+                            <input type="text" value="{{ utilisateurInfo.coef }}" disabled>
+                        </div>
+                        <div class="label_input">
+                            <label>N° de Siret</label>
+                            <input type="text" value="{{ utilisateurInfo.siret }}" disabled>
+                        </div>
                     </div>
                 </div>
             </div>
