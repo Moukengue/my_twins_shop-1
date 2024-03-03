@@ -11,6 +11,9 @@
         <div id="page_mon_compte_all">
             <div id="mon_compte_nav">
                 <ul>
+                    {% if is_granted('ROLE_ADMIN') %}
+                        <li><a href="{{ path('admin') }}">Administrateur</a></li>
+                    {% endif %}
                     <li id="actif"><a href="{{ path('app_mon_compte') }}">Mes Informations</a></li>
                     <li><a href="{{ path('app_mon_compte_commande') }}">Commandes</a></li>
                     <li id="deconnexion"><a href="{{ path('app_logout') }}">Deconnexion</a></li>
