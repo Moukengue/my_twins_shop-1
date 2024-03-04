@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Entity;
-
 use App\Entity\Produit;
 use App\Entity\Commande;
 use Doctrine\DBAL\Types\Types;

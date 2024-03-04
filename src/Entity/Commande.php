@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Entity;
-
+use ApiPlatform\Metadata\ApiResource;
 use App\Entity\Client;
 use App\Entity\Facture;
 use Doctrine\DBAL\Types\Types;
@@ -11,6 +11,7 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\Common\Collections\ArrayCollection;
 
 #[ORM\Entity(repositoryClass: CommandeRepository::class)]
+#[ApiResource()]
 class Commande
 {
     #[ORM\Id]
